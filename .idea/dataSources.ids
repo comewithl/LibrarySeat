@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source name="MySQL - libraryso@localhost" uuid="59a43371-da86-4d54-bdf2-fd3822938924">
+    <database-info product="MySQL" version="5.7.14" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.35 ( Revision: 5fb9c5849535c13917c2cf9baaece6ef9693ef27 )">
+      <extra-name-characters>#@</extra-name-characters>
+      <identifier-quote-string>`</identifier-quote-string>
+    </database-info>
+    <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower"/>
+    <database-model serializer="dbm" rdbms="MYSQL" format-version="2.5">
+      <schema id="1" name="libraryso"/>
+      <table id="2" parent="1" name="seat_distribution"/>
+      <table id="3" parent="1" name="student_info"/>
+      <column id="4" parent="2" name="Seat_name">
+        <mandatory>1</mandatory>
+        <data-type>char(6)</data-type>
+      </column>
+      <column id="5" parent="2" name="Classroom_num">
+        <mandatory>1</mandatory>
+        <data-type>char(2)</data-type>
+      </column>
+      <column id="6" parent="2" name="Seat_id">
+        <comment>座位编号（唯一）</comment>
+        <mandatory>1</mandatory>
+        <data-type>char(4)</data-type>
+      </column>
+      <column id="7" parent="2" name="Seat_x">
+        <comment>座位横坐标</comment>
+        <mandatory>1</mandatory>
+        <data-type>int(2)</data-type>
+      </column>
+      <column id="8" parent="2" name="Seat_y">
+        <comment>座位纵坐标</comment>
+        <mandatory>1</mandatory>
+        <data-type>int(2)</data-type>
+      </column>
+      <column id="9" parent="2" name="Seat_status">
+        <comment>座位的状态（空座=0 预约=1 占用=2 暂离=3 ）（默认为0，每天置零）</comment>
+        <mandatory>1</mandatory>
+        <data-type>int(1)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <key id="10" parent="2" name="PRIMARY">
+        <columns>Seat_name</columns>
+        <primary>1</primary>
+      </key>
+      <column id="11" parent="3" name="Number">
+        <comment>学生学号（唯一）</comment>
+        <mandatory>1</mandatory>
+        <data-type>int(8)</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="12" parent="3" name="Password">
+        <comment>学生学号的密码</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(20)</data-type>
+      </column>
+      <column id="13" parent="3" name="Name">
+        <comment>学生姓名</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(10)</data-type>
+      </column>
+      <column id="14" parent="3" name="Sex">
+        <comment>学生的性别（0=女 1=男）</comment>
+        <mandatory>1</mandatory>
+        <data-type>int(1)</data-type>
+      </column>
+      <column id="15" parent="3" name="Phone_num">
+        <comment>学生手机号码</comment>
+        <data-type>char(11)</data-type>
+      </column>
+      <column id="16" parent="3" name="Classroom_num">
+        <comment>学生选择座位的教室（每天清空）</comment>
+        <data-type>char(2)</data-type>
+      </column>
+      <column id="17" parent="3" name="Seat_id">
+        <comment>学生选择的座位号（每天清空）</comment>
+        <data-type>char(4)</data-type>
+      </column>
+      <column id="18" parent="3" name="Time_week">
+        <comment>学生本周学习时间（单位s，默认为0，每周清零）</comment>
+        <mandatory>1</mandatory>
+        <data-type>int(7)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="19" parent="3" name="Time_total">
+        <comment>学生总共学习时间（单位s，默认为0）</comment>
+        <mandatory>1</mandatory>
+        <data-type>int(9)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="20" parent="3" name="Default_num">
+        <comment>学生违约次数（默认为0，每周清零）</comment>
+        <mandatory>1</mandatory>
+        <data-type>int(2)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="21" parent="3" name="Purikura_route">
+        <comment>学生头像路径</comment>
+        <data-type>varchar(50)</data-type>
+      </column>
+      <column id="22" parent="3" name="State_flag">
+        <comment>学生当前状态（0-用户未绑定 1-用户绑定没有操作 2-用户预约中 3-用户占用中 4-用户暂离中）</comment>
+        <mandatory>1</mandatory>
+        <data-type>int(1)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="23" parent="3" name="Appointment_time">
+        <comment>学生预约开始时间</comment>
+        <data-type>datetime</data-type>
+      </column>
+      <column id="24" parent="3" name="Occupancy_time">
+        <comment>学生占用开始时间</comment>
+        <data-type>datetime</data-type>
+      </column>
+      <column id="25" parent="3" name="Departure_time">
+        <comment>学生暂离开始时间</comment>
+        <data-type>datetime</data-type>
+      </column>
+      <key id="26" parent="3" name="PRIMARY">
+        <columns>Number</columns>
+        <primary>1</primary>
+      </key>
+    </database-model>
+  </data-source>
+</component>

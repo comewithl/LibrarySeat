@@ -1,0 +1,15 @@
+[ 2016-10-30T10:32:28+08:00 ] 127.0.0.1 /libraryso/index.php/login/login
+ERR: 无法加载模块:Login
+
+[ 2016-10-30T13:24:40+08:00 ] 127.0.0.1 /libraryso/index.php/seatselection/seatselection
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Seatselection
+
+[ 2016-10-30T13:26:02+08:00 ] 127.0.0.1 /libraryso/index.php/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002500s ]
+ERR: 无法加载模块:Index
+

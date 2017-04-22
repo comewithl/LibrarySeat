@@ -1,0 +1,281 @@
+*{
+		margin: 0px;
+		padding: 0px;
+		
+	}
+	body{
+		background-color: rgb(238,238,238);
+		overflow: auto;
+	}
+	.fixed_top_nav_mask{
+		position: fixed;
+		width: 100%;
+		top: 0;
+		font-size: 5px;
+	}
+	.hdu_describe_nav{
+		position: relative;
+		margin: 0 auto;
+		margin-top: 1%;
+		background-color: rgb(165,207,232);
+		border-radius: 10px;
+
+	}
+
+
+	.hdu_describe_nav img{display:inline-block;vertical-align:middle;width: 20%;margin-right: 10%;}
+	.hdu_describe_nav span{display:inline-block;vertical-align:middle; font-size: 1em;}
+	.empty_seat_style,.order_seat_style,.ocupy_seat_style{
+		position: absolute;
+		width: 25%;
+	}
+	.empty_seat_style
+	{
+		left: 6.25%;
+		top:20%;
+	}
+	.order_seat_style{
+		left: 37.5%;
+		top: 20%;
+	}
+	.ocupy_seat_style{
+		left: 68.75%;
+		top: 20%;
+	}
+	.empty_seat_style div,.ocupy_seat_style div,.order_seat_style div{margin-bottom:5%;}
+
+	.floor_title{
+		font-size: 0.75em;
+		text-align: center;
+		letter-spacing: 1.875em;
+		padding: 2em 0;
+		
+	}
+	
+	
+
+	.seat,.seat_reverse,.choosed_seat{
+		width: 100%;
+		height: 100%;
+		background-size: 100% 100%;
+		cursor: pointer;
+/*		font-size: 14px;
+		font-weight: bold;
+		line-height: 20px;
+		text-align: center;
+*/	}
+	.seat{
+		background-image: url("../img/座位 (空).png");
+	}
+
+	.order_male,.order_female,.seated_male,.seated_female,.order_male_reverse,.choosed_seat_reverse,.order_female_reverse,.seated_male_reverse,.seated_female_reverse{
+		width: 100%;
+		height: 100%;
+		background-size: 100% 100%;
+		
+		/*line-height: 20px;
+		font-size: 14px;
+		font-weight: bold;
+		text-align: center;*/
+	}
+	.choosed_seat{
+		background-image: url("../img/选中.png");
+	}
+	.order_male{
+		background-image: url("../img/座位 (男预约).png");
+	}
+	.order_female{
+		background-image: url("../img/座位 (女预约).png");
+	}
+	.seated_male{
+		background-image: url("../img/座位 (男在).png");
+	}
+	.seated_female{
+		background-image: url("../img/座位 (女在).png");
+	}
+
+
+	.choosed_seat_reverse{
+		background-image: url("../img/选中_reverse.png");
+	}
+	.seat_reverse{
+		background-image: url("../img/座位 (空)_reverse.png");
+	}
+	.order_male_reverse{
+		background-image: url("../img/座位 (男预约)_reverse.png");
+	}
+	.order_female_reverse{
+		background-image: url("../img/座位 (女预约)_reverse.png");
+	}
+	.seated_male_reverse{
+		background-image: url("../img/座位 (男在)_reverse.png");
+	}
+	.seated_female_reverse{
+		background-image: url("../img/座位 (女在)_reverse.png");
+	}
+
+	/*确认键*/
+	#seat_confirm{
+		cursor: pointer;
+		width: 100%;
+		text-align: center;
+		padding: 0.5em 0;
+		letter-spacing: 1em;
+		font-size: 1.5em;
+		border-radius: 10px;
+		color: #fff;
+		background-color:rgb(126,210,245);
+	}
+	#seat_confirm[disabled="disabled"]{
+		cursor: default;
+		background-color: rgba(200,200,200,0.8);
+	}
+
+	@media screen and (min-width: 980px){
+		.hdu_describe_nav{width: 50em;}
+		.hdu_describe_nav,.hdu_lib_floor_seats_show,.hdu_lib_floor_seats_list dd,.clear{font-size: 20px;}
+		.hdu_describe_nav{height:120px;}
+		.floor_title{margin-top: 120px;}
+		/*座位图标*/
+	.hdu_lib_floor_seats_show{
+		/*1080px*/
+		width: 46.25em;
+		margin: 0 auto;
+	}
+	.clear{
+		height: 1.25em;
+	}
+	.hdu_lib_floor_seats_list dd{
+		float: left;
+		width: 1.25em;
+		height: 1.25em;
+		text-align: center;
+		/*border: 1px solid #f00;*/
+	}
+	}
+	@media screen and (max-width: 980px){
+		.hdu_describe_nav{width: 50em;}
+		.hdu_describe_nav,.hdu_lib_floor_seats_show,.hdu_lib_floor_seats_list dd,.clear{font-size: 16px;}
+		.hdu_describe_nav{height:100px;}
+		.floor_title{margin-top: 100px;}
+		/*座位图标*/
+	.hdu_lib_floor_seats_show{
+		/*1080px*/
+		width: 46.25em;
+		margin: 0 auto;
+	}
+	.clear{
+		height: 1.25em;
+	}
+	.hdu_lib_floor_seats_list dd{
+		float: left;
+		width: 1.25em;
+		height: 1.25em;
+		text-align: center;
+		/*border: 1px solid #f00;*/
+	}
+	}
+	
+	@media screen and (max-width: 800px){
+		.hdu_describe_nav{width: 50em;}
+		.hdu_describe_nav,.hdu_lib_floor_seats_show,.hdu_lib_floor_seats_list dd,.clear{font-size: 12px;}	
+		/*座位图标*/
+	.hdu_lib_floor_seats_show{
+		/*1080px*/
+		width: 46.25em;
+		margin: 0 auto;
+	}
+	.clear{
+		height: 1.25em;
+	}
+	.hdu_lib_floor_seats_list dd{
+		float: left;
+		width: 1.25em;
+		height: 1.25em;
+		text-align: center;
+		/*border: 1px solid #f00;*/
+	}
+	}
+	@media screen and (max-width: 600px){
+		.hdu_describe_nav{width: 40em;}
+		.hdu_describe_nav span{display:inline-block;vertical-align:middle; font-size: 0.83em;}
+		.hdu_describe_nav{height:80px;}
+		.floor_title{margin-top: 80px;}
+
+		.hdu_lib_floor_seats_show{
+			/*1080px*/
+			width: 38.54em;
+			margin: 0 auto;
+		}
+		.clear{
+			height: 1em;
+		}
+		.hdu_lib_floor_seats_list dd{
+			float: left;
+			width: 1em;
+			height: 1em;
+			text-align: center;
+			/*border: 1px solid #f00;*/
+		}
+	}
+	@media screen and (max-width: 450px){
+		.hdu_describe_nav{width: 29.1em;}
+		/*.hdu_describe_nav,.hdu_lib_floor_seats_show,.hdu_lib_floor_seats_list dd,.clear{font-size: 7px;}*/
+		.hdu_describe_nav img{display:inline-block;vertical-align:middle;width: 20%;margin-right: 10%;}
+		.hdu_describe_nav span{display:inline-block;vertical-align:middle;width: 70%;}
+		.hdu_describe_nav{height:60px;}
+		.floor_title{margin-top: 60px;}
+		.hdu_lib_floor_seats_show{
+			/*1080px*/
+			width: 26.97em;
+			margin: 0 auto;
+		}
+		.clear{
+			height: 0.72em;
+		}
+		.hdu_lib_floor_seats_list dd{
+			float: left;
+			width: 0.72em;
+			height: 0.72em;
+			text-align: center;
+			/*border: 1px solid #f00;*/
+		}
+		
+	}
+	@media screen and (max-width: 350px){
+		.hdu_describe_nav{width: 29.1em;}
+		/*.hdu_describe_nav,.hdu_lib_floor_seats_show,.hdu_lib_floor_seats_list dd,.clear{font-size: 7px;}*/
+		.hdu_describe_nav img{display:inline-block;vertical-align:middle;width: 20%;margin-right: 10%;}
+		.hdu_describe_nav span{display:inline-block;vertical-align:middle;width: 70%;}
+		.hdu_describe_nav {margin-left:-10px;transform:scale(0.8);}
+		.hdu_describe_nav{height:60px;}
+		.floor_title{margin-top: 60px;}
+		.hdu_lib_floor_seats_show{
+			/*1080px*/
+			width: 26.97em;
+			margin: 0 auto;
+		}
+		.clear{
+			height: 0.60em;
+		}
+		.hdu_lib_floor_seats_list dd{
+			float: left;
+			width: 0.72em;
+			height: 0.60em;
+			text-align: center;
+			/*border: 1px solid #f00;*/
+		}
+		
+	}
+	#show_choosed_id{
+		width: 30%;
+		height: 1em;
+		padding: 0.1em 0;
+		border-radius: 4px;
+		color: #000;
+		background-color: rgba(255, 255, 255, 0.6);
+		margin: 0 auto;
+		text-align: center;
+		margin-bottom: 0.5em;
+	}
+

@@ -1,0 +1,48 @@
+[ 2016-11-07T12:57:44+08:00 ] 127.0.0.1 /libraryso/index.php/Controller/SeatselectionController.class.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Controller
+
+[ 2016-11-07T12:57:48+08:00 ] 127.0.0.1 /libraryso/index.php/Controller/SeatselectionController.class.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Controller
+
+[ 2016-11-07T12:58:04+08:00 ] 127.0.0.1 /libraryso/index.php/Controller/SeatselectionController
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Controller
+
+[ 2016-11-07T12:58:33+08:00 ] 127.0.0.1 /libraryso/index.php/Controller/SeatselectionController
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Controller
+
+[ 2016-11-07T13:02:41+08:00 ] 127.0.0.1 /libraryso/index.php/Controller/SeatselectionController
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010000s ]
+ERR: 无法加载模块:Controller
+
+[ 2016-11-07T13:05:30+08:00 ] 127.0.0.1 /libraryso/index.php/Controller/SeatselectionController
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Controller
+
+[ 2016-11-07T13:06:50+08:00 ] 127.0.0.1 /libraryso/index.php/Controller/SeatselectionController.class
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Controller
+
+[ 2016-11-07T13:07:11+08:00 ] 127.0.0.1 /libraryso/index.php/Controller/SeatselectionController.class.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Controller
+
