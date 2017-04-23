@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
@@ -150,7 +150,7 @@ body{overflow:hidden;}
 		<p class="lib-tel">图书馆咨询电话：888888</p><p class="lib-time">工作时间：8:00-21:00</p>
 	</div>
 	<div class="d7">
-		<button  class="btn btn-info btn-tz" type="button" value="退座">退座</button>
+		<button disabled="disabled" class="btn btn-info btn-tz" type="button" value="退座">退座</button>
 	</div>
 
 </body>
@@ -165,7 +165,6 @@ body{overflow:hidden;}
 	$(".more").click(function(){
 		$(".more-ul").toggle()
 	})
-
 	$(document).ready(function(){
 		$.ajax({
 			type:"GET",
@@ -179,26 +178,11 @@ body{overflow:hidden;}
 				alert(XMLHTTPRequest.statusText+status);
 			}
 		});
-        $(".btn-tz").click(function(){
-            console.log("sss");
-            $.ajax({
-                type:"POST",
-                url:"/libraryso/index.php/home/seatinfo/yuyuetuizuo",
-                success:function(data){
-                    alert(data);
-                    window.location.href="/libraryso/index.php/home/floorlist/floorlist?userId="+info["number"];
-                },
-                error:function(XMLHTTPRequest,statusText,errorThrown){
-                    alert(XMLHTTPRequest.statusText+status);
-                }
-            })
-        });
 	})
 	function  reFresh(data){
 		for(var key in data){
 			$("."+key).html(data[key]);
 		};
 	}
-
 </script>
 </html>

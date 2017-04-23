@@ -1,0 +1,89 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+body,html{
+    background:rgb(238,238,238);
+    overflow:hidden;
+}
+.head{
+    height:40px;
+    text-align:center;咯
+    line-height:40px;
+    background:rgb(35,40,40);
+    color:#fff;
+    letter-spacing:5px;
+    font-weight:14px;
+}
+.center{
+    margin: 0 auto;
+}
+.btn-div{
+    height:1000px;
+}
+input{
+    padding-left: 5px;
+    border:none;
+    width:240px;
+    height:48px;
+    outline: none;
+}
+.idDiv{
+    border-bottom:1px solid rgb(238,238,238);
+}
+.input{
+    height:50px;
+    line-height:50px;
+    padding-left:10px;
+    vertical-align:top;
+    letter-spacing:5px;
+    color:rgb(146,146,146);
+}
+.head-photo img{
+    height:80%;
+    width: 60%;
+}
+.head-photo{
+    text-align:center;
+    padding-top:50px;
+    height:200px;
+
+}
+.login-form-wrap{
+    width: 80%;
+}
+.btn{
+    width:340px;
+    height: 40px;
+    font-size:17px;
+    color:#fff;
+    letter-spacing:15px;
+    outline: none;
+}
+.btn-div{
+    text-align:center;
+    padding-top:2px;
+}
+.resultP{
+    text-align:center;
+    color:red;
+}
+.glyphicon{
+    margin-right: 1em;
+}
+.glyphicon-user {
+    border-right:1px solid rgb(238,238,238);
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+.glyphicon-lock {
+    border-right:1px solid rgb(238,238,238);
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+.btn-info {
+    background-color: rgb(126,210,245);
+    border-style: none;
+    outline: none;
+    margin-top:10px;
+}

@@ -1,0 +1,110 @@
+
+*{margin:0px;padding:0px;font-family:Microsoft Yohei;font-size:20px;}
+body{overflow:hidden;}
+p {
+    font-size: 17px;
+    font-weight: 100;
+}
+.d1{
+    background:rgb(35,40,40);
+    height:40px;
+    text-align:center;
+    color:#fff;
+    line-height:40px;
+}
+.d2{
+    background:rgb(238,238,238);
+    height:40px;
+}
+.d3{
+    height:40px;
+    border-bottom:1px solid rgb(238,238,238);
+}
+.d4{
+    border-bottom:1px solid rgb(238,238,238);
+    padding-top: 30px;
+    padding-left:30px;
+    padding-bottom: 30px;
+}
+.d5{
+    padding-top: 20px;
+    padding-left:30px;
+    padding-bottom: 5px;
+    color:rgb(238,238,238);
+    border-bottom:20px solid rgb(238,238,238);
+}
+.d5 p {
+    color: rgb(205,205,205);
+}
+.d6{
+    padding-left:30px;
+    color:rgb(238,238,238);
+}
+.d7{
+    text-align:center;
+}
+.photo{
+    width:60px;
+    height:60px;
+    border-radius:30px;
+    margin:10px;
+}
+.btn{
+    width:40%;
+    height: 45px;
+    font-size:17px;
+    color:#fff;
+    letter-spacing:15px;
+    outline: none;
+}
+.no-sign{
+    float: right;
+    margin-right: 10px;
+    width:80px;
+    height:80px;
+    transform:translateY(-163px);
+}
+.lib-tel {
+    margin-top: 10px;
+    color:rgb(0,0,0);
+    margin-bottom: 5px;
+}
+.lib-time {
+    font-size: 15px;
+}
+.btn-info {
+    background-color: rgb(126,210,245);
+    border-style: none;
+    outline: none;
+}
+
+.menu {
+    float: right;
+    display: inline-block;
+    width: 80px;
+    height: 40px;
+}
+
+.more {
+    margin-top: 5px;
+    margin-left: 50%;
+    width: 30px;
+    cursor: pointer;
+}
+.menu ul {
+    list-style: none;
+    display: none;
+    background-color: white;
+    margin-top: 5px;
+}
+.menu ul li a {
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+}
+.menu ul li {
+    padding: 9px;
+    margin-bottom: 0;
+    border-bottom:1px solid rgb(238,238,238);
+    border-left:1px solid rgb(238,238,238);
+}

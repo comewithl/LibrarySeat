@@ -116,6 +116,54 @@
             $this -> ajaxReturn($result);
         }
 
+        /*就座确认:坐标判断*/
+        public function seatConfirm()
+        {
+            $libraryPositionlng = 120.21937542; //经度
+            $libraryPositionlat = 30.25924446; //纬度
+            $userPosition = $_POST['userPosition'];
+            $distance = $this->getDistance($libraryPositionlat,$libraryPositionlng,$userPosition['lat'],$userPosition['lng']);
+            /*如果用户离目标 50 米以内进行确认就座*/
+            if(abs($distance) <= 50){
+                /*用户信息改变*/
+                $User = M("student_info");
+                $data['State_flag']       = 3;  //用户占用中
+                $data['Appointment_time'] = null;
+                $data['Occupancy_time']   = date('Y-m-d H:i:s');
+                $condition['Number'] = $_COOKIE['Number']; //学号
+
+                $seat_info = $User->where($condition)->select();
+                if($seat_info[0]['state_flag'] != 2)
+                    $this -> ajaxReturn('抱歉，您还没有预约座位！');
+                $User->where($condition)->save($data);
+
+                $classroom_num = $seat_info[0]['classroom_num'];
+                $seat_id       = $seat_info[0]['seat_id'];
+                /*座位状态改变*/
+                $User = M("seat_distribution");
+                $seatData['Seat_status'] = 2;
+                $seatCondition['Seat_id']       = $seat_id;
+                $seatCondition['Classroom_num'] = $classroom_num;
+                $User->where($seatCondition)->save($seatData);
+
+                $result=array(
+                    'successflag' => true,
+                    'imf' => '就座成功'
+                );
+                $this->ajaxReturn($result);
+
+            }
+            else{
+                $result=array(
+                    'distance' => $distance,
+                    'successflag' =>false ,
+                    'imf' => '请确认是否已经到达图书馆在就座或者联系管理员'
+                );
+                $this->ajaxReturn($result);
+            }
+
+        }
+
         /*预约退座请求响应*/
         public function yuyuetuizuo()
         {
@@ -125,6 +173,7 @@
             $data['Seat_id']          = null;
             $data['State_flag']       = 1;
             $data['Appointment_time'] = null;
+            $data['Occupancy_time'] = null;
             $condition['Number'] = $_COOKIE['Number'];
             $seat_info = $User->where($condition)->select();
             if($seat_info[0]['state_flag'] != 2)
@@ -171,5 +220,23 @@
 
             $this -> ajaxReturn('暂离退座成功！');
         }
+
+        /*计算两个地理位置间的距离*/
+        public function getDistance($lat1, $lng1, $lat2, $lng2)
+        {
+            $earthRadius = 6367000;
+            $lat1 = ($lat1 * pi() ) / 180;
+            $lng1 = ($lng1 * pi() ) / 180;
+            $lat2 = ($lat2 * pi() ) / 180;
+            $lng2 = ($lng2 * pi() ) / 180;
+            $calcLongitude = $lng2 - $lng1;
+            $calcLatitude = $lat2 - $lat1;
+            $stepOne = pow(sin($calcLatitude / 2), 2) + cos($lat1) * cos($lat2) * pow(sin($calcLongitude / 2), 2);
+            $stepTwo = 2 * asin(min(1, sqrt($stepOne)));
+            $calculatedDistance = $earthRadius * $stepTwo;
+            return round($calculatedDistance);
+        }
+
     }
+
 ?>

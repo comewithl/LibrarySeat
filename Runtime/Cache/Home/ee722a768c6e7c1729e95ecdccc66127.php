@@ -4,105 +4,22 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-widht initial-scale=1.0">
 	<link href="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
-	<script src="http://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
-	<script src="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-	<script src="http://cdn.static.runoob.com/libs/angular.js/1.4.6/angular.min.js"></script>
+	<link rel="stylesheet" href="/libraryso/Public/css/Login/login.css">
 	<title>注册页面</title>
 </head>
-<style>
-	*{
-		margin:0px;
-		padding:0px;
-	}
-	body,html{
-		overflow:hidden;
-	}
-	.head{
-		height:40px;
-		text-align:center;
-		line-height:40px;
-		background:rgb(35,40,40);
-		color:#fff;
-		letter-spacing:5px;
-		font-weight:14px;
-	}
-	.btn-div{
-		height:1000px;
-		background:rgb(238,238,238);
-	}
-	input{
-		padding-left: 5px;
-		border:none;
-		width:240px;
-		height:48px;
-		outline: none;
-	}
-	.idDiv{
-		border-bottom:1px solid rgb(238,238,238);
-	}
-	.input{
-		height:50px;
-		line-height:50px;
-		padding-left:10px;
-		vertical-align:top;
-		letter-spacing:5px;
-		color:rgb(146,146,146);
-	}
-	.photo img{
-		height:100px;
-		width:100px;
-	}
-	.photo{
-		text-align:center;
-		padding-top:50px;
-		height:200px;
-		background:rgb(238,238,238);
-	}
-	.btn{
-		width:340px;
-		height: 40px;
-		font-size:17px;
-		color:#fff;
-		letter-spacing:15px;
-		outline: none;
-	}
-	.btn-div{
-		text-align:center;
-		padding-top:2px;
-	}
-	.resultP{
-		text-align:center;
-		color:red;
-	}
-	.glyphicon-user {
-		border-right:1px solid rgb(238,238,238);
-		padding-top: 4px;
-		padding-bottom: 4px;
-	}
-	.glyphicon-lock {
-		border-right:1px solid rgb(238,238,238);
-		padding-top: 4px;
-		padding-bottom: 4px;
-	}
-	.btn-info {
-		background-color: rgb(126,210,245);
-		border-style: none;
-		outline: none;
-		margin-top:10px;
-	}
 
-</style>
 <body>
-	<!--<div class="head">注册</div>-->
-	<div class="photo">
+	<div class="head-photo">
 		<img src="/librarySo/Public/img/hd3.jpg" alt=""></img>
 	</div>
-	<div>
+	<div class="center login-form-wrap">
 		<form name="form" action=""  class="form" method="post">
 		<div class="input idDiv">
-		<span class="glyphicon glyphicon-user">学号</span><input class="userId" name="userId" type="text"></div>
+			<span class="glyphicon glyphicon-user"></span><input class="userId" name="userId" type="text" placeholder="学号">
+		</div>
 		<div class="input keyDiv">
-		<span class="glyphicon glyphicon-lock">密码</span><input class="userKey" name="userKey" type="password"></div>
+			<span class="glyphicon glyphicon-lock"></span><input class="userKey" name="userKey" type="password" placeholder="密码">
+		</div>
 		</form>
 	</div>
 	<div class="btn-div">
@@ -113,41 +30,8 @@
 		<button class="btn btn-info" type="button" onclick="infoSubmit()">登录</button>
 	</div>
 </body>
-<script>
-	(function(global){
-        $(".userId").blur(function(){
-            var reg=/^\d{8}$/;
-            if(this.value.match(reg)==null){
-                $(".resultP").html("学号应为8位数字");
-            }else{
-                $(".resultP").html("");
-            }
-        });
-	})(window);
-	function infoSubmit(){
-
-		$.ajax({
-			type:"POST",
-			url:"/libraryso/index.php/home/login/check",
-			data:{"userId":$(".userId").val(),"userKey":$(".userKey").val()},
-			success:function(data){
-				if(data==0){
-					alert("帐号不能为空！");
-				}else if(data==1){
-					alert("密码不能为空！");
-				}else if(data==2){
-					alert("帐号或密码错误！");
-				}
-				else if(data==3){
-					alert("恭喜你！绑定成功！");
-					debugger;
-					window.location.href="/libraryso/index.php/home/floorlist/floorlist?userId="+$(".userId").val();
-				}
-			},
-			error:function(XMLHTTPRequest,statusText,errorThrown){
-				alert(XMLHTTPRequest.statusText+status);
-			}
-		})
-	}
-</script>
+<script src="http://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="http://cdn.static.runoob.com/libs/angular.js/1.4.6/angular.min.js"></script>
+<script src="/librarySo/Public/js/Login/login.js" type="application/javascript"></script>
 </html>

@@ -5,8 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
     <meta name="format-detection" content="telephone=no">
-    <script src="http://libs.baidu.com/jquery/1.10.2/jquery.min.js"></script>
-    <script type="text/javascript" src="/libraryso/Public/js/jquery-2.2.1.min.js"></script>
+
     <link href="/libraryso/Public/css/loadingCss.css" rel="stylesheet" type="text/css"/>
     <link href="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
     <title>监督</title>
@@ -270,69 +269,7 @@
     <button type="button" class="btn btn-info cancel cancel-leave">取消</button>
 </div>
 </body>
-<script>
-    var floor;
-    var seat;
-    var floorArray=["02","04"];
-    $(".more").mouseover(function(){
-        $(this).css("opacity","0.6")
-    })
-    $(".more").mouseleave(function(){
-        $(this).css("opacity","1")
-    })
-    $(".more").click(function(){
-        $(".more-ul").toggle()
-    })
-    function flootCheck(){
-        if(floorArray.toString().indexOf(String($("#floor-input").val()))<0){``
-            alert("请输入02或04");
-        }
-    }
-
-    $("#submit").click(function(){
-
-         floor=$("#floor-input").val();
-         seat=$("#seat-input").val();
-        $.ajax({
-           type:"POST",
-            url:"/libraryso/index.php/home/feedback/check",
-            data:{"floor":floor,"seat":seat},
-            success:function(data){
-               if(!data){
-                   $(".illegal").show();
-               }else{
-                   $(".leave").show();
-               }
-            },
-            error:function(XMLHTTPRequest,status,errorThrown){
-                alert(XMLHTTPRequest.statusText+status);
-            }
-        });
-    })
-
-    $(".cancel").click(function(){
-        $(this).parent().hide();
-    });
-    $(".report").click(function(){
-
-        $.ajax({
-            type:"POST",
-            url:"/libraryso/index.php/home/feedback/sreport",
-            data:{"floor":floor,"seat":seat},
-            success:function($data){
-                if(!$data) {
-                    alert("举报成功，现在该座位可以正常选座了！");
-                    window.location.href = "/libraryso/index.php/home/floorlist/floorlist";
-                }else{
-                    alert("举报失败，请检查重试！");
-                    window.location.href = "/libraryso/index.php/home/feedback/report";
-                }
-            },
-            error:function(XMLHTTPRequest,status,errorThrown){
-                alert(XMLHTTPRequest.statusText+status);
-            }
-        });
-    })
-</script>
+<script type="text/javascript" src="/libraryso/Public/js/jquery-2.2.1.min.js"></script>
+<script type="text/javascript" src="/libraryso/Public/js/Feedback/report.js"></script>
 </body>
-
+</html>>

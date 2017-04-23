@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
@@ -130,6 +130,14 @@ body{overflow:hidden;}
 	<!--<div class="d1">座位信息</div>-->
 	<div class="d2">
 		<a href="#"><img class="photo" src="/libraryso/Public/img/people1.png"></a>
+		<!-- <div class="btn-group">
+  			<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown"><span class="caret"></span>
+  			</button>
+		  <ul class="dropdown-menu" role="menu">
+		    <li><a href="#">Action</a></li>
+		    <li><a href="#">Another action</a></li>
+		  </ul>
+		</div> -->
 		<div class="menu">
 			<img class="more" src="/libraryso/Public/img/更多.png">
 			<ul class="more-ul">
@@ -140,17 +148,17 @@ body{overflow:hidden;}
 	</div>
 	<div class="d3"><!-- <img class="line" src="/libraryso/Public/img/up-line.png"> --></div>
 	<div class="d4">
-		<p><span class="classroom_num"></span>楼自习室<span class="seat_id"></span>座</p><p>入座时间：<span class="start_time"></span></p><p>已学习时长:<span class="end_time"></p>
+		<p><span class="classroom_num"></span>楼自习室<span class="seat_id"></span>座</p><p>离开时间：<span class="start_time"></span></p><p>签到截至时间:<span class="end_time"></span></p>
 	</div>
 	<div class="d5">
 		<p>预约者信息：</p><p>学号：<span class="number"></p><p>姓名：<span class="name"></span></p>
-		<img class="no-sign" src="/libraryso/Public/img/正在使用图章.png" >
+		<img class="no-sign" src="/libraryso/Public/img/暂离.png" >
 	</div>
 	<div class="d6">
 		<p class="lib-tel">图书馆咨询电话：888888</p><p class="lib-time">工作时间：8:00-21:00</p>
 	</div>
 	<div class="d7">
-		<button  class="btn btn-info btn-tz" type="button" value="退座">退座</button>
+		<button class="btn btn-info btn-tz" type="button" value="退座">退座</button>
 	</div>
 
 </body>
@@ -165,11 +173,10 @@ body{overflow:hidden;}
 	$(".more").click(function(){
 		$(".more-ul").toggle()
 	})
-
 	$(document).ready(function(){
 		$.ajax({
 			type:"GET",
-			url:"/libraryso/index.php/home/seatinfo/zhanyonginfo",
+			url:"/libraryso/index.php/home/seatinfo/zanliinfo",
 			datatype:"json",
 			success:function(data){
 				info=data;
@@ -179,26 +186,25 @@ body{overflow:hidden;}
 				alert(XMLHTTPRequest.statusText+status);
 			}
 		});
-        $(".btn-tz").click(function(){
-            console.log("sss");
-            $.ajax({
-                type:"POST",
-                url:"/libraryso/index.php/home/seatinfo/yuyuetuizuo",
-                success:function(data){
-                    alert(data);
-                    window.location.href="/libraryso/index.php/home/floorlist/floorlist?userId="+info["number"];
-                },
-                error:function(XMLHTTPRequest,statusText,errorThrown){
-                    alert(XMLHTTPRequest.statusText+status);
-                }
-            })
-        });
 	})
 	function  reFresh(data){
 		for(var key in data){
 			$("."+key).html(data[key]);
 		};
 	}
-
+	$(".btn-tz").click(function(){
+		//$.post("/libraryso/index.php/home/seatinfo/yuyuetuizuo",{"number":info["number"]});
+		$.ajax({
+			type:"POST",
+			url:"/libraryso/index.php/home/seatinfo/zanlituizuo",
+			success:function(data){
+				alert(data);
+				window.location.href="/libraryso/index.php/home/floorlist/floorlist?userId="+info["number"];
+			},
+			error:function(XMLHTTPRequest,statusText,errorThrown){
+				alert(XMLHTTPRequest.statusText+status);
+			}
+		})
+	})
 </script>
 </html>
