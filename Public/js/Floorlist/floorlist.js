@@ -24,14 +24,34 @@
     })
     zz.addEventListener("click", function() {
         tanchuzz.click();
-    })
+    });
     $(".more").mouseover(function(){
         $(this).css("opacity","0.6")
-    })
+    });
     $(".more").mouseleave(function(){
         $(this).css("opacity","1")
-    })
+    });
     $(".more").click(function(){
         $(".more-ul").toggle()
-    })
+    });
+    $("#my_seat_icon").click(mySeatJump);
 })(window);
+function mySeatJump() {
+    $.ajax({
+        type:"POST",
+        datatype:"json",
+        url:'/libraryso/index.php/home/seatinfo/seatinfo',
+        success:function (data) {
+          if(data.successflag){
+              window.location.href = '/libraryso/index.php/home/seatinfo/seatinfo';
+          }
+          else{
+              alert(data.imf);
+          }
+        },
+        error:function (data) {
+            alert(data);
+        }
+
+    })
+}

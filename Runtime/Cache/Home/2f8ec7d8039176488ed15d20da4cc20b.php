@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
@@ -78,7 +78,23 @@
 			</div>
 		</div>
 	</div>
-	<include file="./Public/nav_left.html"/>
+	<nav>
+		<div class="user">
+			<img src="/libraryso/Public/img/people1.png">
+				<div class="user-info">
+					<p class="school-num">14051506</p>
+					<p class="stu-name">徐君仪</p>
+				</div>
+		</div>
+		<ul class="slide-ul">
+			<li><a href="#"><span class="glyphicon glyphicon-user"></span>个人资料</a></li>
+			<li><a href="/libraryso/index.php/home/seatinfo/seatinfo"><span class="glyphicon glyphicon-inbox"></span>我的座位</a></li>
+			<li><a href="#"><span class="glyphicon glyphicon-remove"></span>违规记录</a></li>
+			<li><a href="/libraryso/index.php/home/feedback/report"><span class="glyphicon glyphicon-search"></span>监督占座</a></li>
+			<li><a href="/libraryso/index.php/home/feedback/report"><span class="glyphicon glyphicon-transfer"></span>问题反馈</a></li>
+			<li><a href="#"><span class="glyphicon glyphicon-list"></span>关于我们</a></li>
+		</ul>
+	</nav>
 	<div class="zz"></div>
 </div>
 

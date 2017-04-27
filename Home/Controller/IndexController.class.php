@@ -15,13 +15,13 @@ class IndexController extends Controller {
         }
 
         /*根据学生状态显示不同的页面*/
-        if(cookie('Number') != null && $state_flag == 1)        //未操作状态，显示选楼层页面
+        if(cookie('Number') != null && $state_flag == USERSTATE_LOGIN)        //未操作状态，显示选楼层页面
             $this -> display('floorlist/floorlist');
-        else if(cookie('Number') != null && $state_flag == 2)   //预约状态，显示预约座位详细信息页面
+        else if(cookie('Number') != null && $state_flag == USERSTATE_ORDER)   //预约状态，显示预约座位详细信息页面
             $this -> display('seatinfo/seatinfoyuyue');
-        else if(cookie('Number') != null && $state_flag == 3)   //占用状态，显示占用座位的详细信息页面
+        else if(cookie('Number') != null && $state_flag == USERSTATE_OCCUPY)   //占用状态，显示占用座位的详细信息页面
             $this -> display('seatinfo/seatinfozhanyong');
-        else if(cookie('Number') != null && $state_flag == 4)   //暂离状态，显示座位暂离的详细信息页面
+        else if(cookie('Number') != null && $state_flag == USERSTATE_TEM)   //暂离状态，显示座位暂离的详细信息页面
             $this -> display('seatinfo/seatinfozanli');
         else
             $this -> display('login/login');                    //未绑定或其他未知状态，返回登录页面进行重置

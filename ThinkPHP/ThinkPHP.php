@@ -29,7 +29,19 @@ const URL_REWRITE       =   2;  //REWRITE模式
 const URL_COMPAT        =   3;  // 兼容模式
 
 // 类文件后缀
-const EXT               =   '.class.php'; 
+const EXT               =   '.class.php';
+
+/*定义座位状态*/
+define('SEATSTATE_EMPTY',0);
+define('SEATSTATE_ORDER',1);
+define('SEATSTATE_OCCUPY',2);
+define('SEATSTATE_TEM',3);
+
+/*定义用户座位状态*/
+define('USERSTATE_LOGIN',1);
+define('USERSTATE_ORDER',2);
+define('USERSTATE_OCCUPY',3);
+define('USERSTATE_TEM',4);
 
 // 系统常量定义
 defined('THINK_PATH')   or define('THINK_PATH',     __DIR__.'/');

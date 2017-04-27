@@ -9,11 +9,19 @@
 	<link rel="stylesheet" href="/libraryso/Public/css/global.css">
 	<title>座位信息</title>
 </head>
-<body data-userState="OCCUPY">
+<body data-userState="TEMP">
 	<div class="box">
 		<!--<div class="d1">座位信息</div>-->
 		<div class="d2">
 			<a href="#"><img class="photo stu-pic" src="/libraryso/Public/img/people1.png"></a>
+			<!-- <div class="btn-group">
+				<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown"><span class="caret"></span>
+				</button>
+			  <ul class="dropdown-menu" role="menu">
+				<li><a href="#">Action</a></li>
+				<li><a href="#">Another action</a></li>
+			  </ul>
+			</div> -->
 			<div class="menu">
 				<img class="more" src="/libraryso/Public/img/更多.png">
 				<ul class="more-ul">
@@ -24,26 +32,17 @@
 		</div>
 		<div class="d3"><!-- <img class="line" src="/libraryso/Public/img/up-line.png"> --></div>
 		<div class="d4">
-			<p>
-				<span class="classroom_num"></span>楼自习室
-				<span class="seat_id"></span>座
-			</p>
-			<p>入座时间：
-				<span class="start_time"></span>
-			</p>
-			<p>已学习时长:
-				<span class="end_time"></span>
-			</p>
+			<p><span class="classroom_num"></span>楼自习室<span class="seat_id"></span>座</p><p>离开时间：<span class="start_time"></span></p><p>签到截至时间:<span class="end_time"></span></p>
 		</div>
 		<div class="d5">
 			<p>预约者信息：</p><p>学号：<span class="number"></p><p>姓名：<span class="name"></span></p>
-			<img class="no-sign" src="/libraryso/Public/img/正在使用图章.png" >
+			<img class="no-sign" src="/libraryso/Public/img/暂离.png" >
 		</div>
 		<div class="d6">
 			<p class="lib-tel">图书馆咨询电话：888888</p><p class="lib-time">工作时间：8:00-21:00</p>
 		</div>
 		<div class="d7">
-			<button class="btn btn-info " id="seatTemp" type="button" >暂离</button>
+			<button class="btn btn-info " id="seatConfirm" type="button" >就座</button>
 			<button class="btn btn-info btn-tz" id="seatReturn" type="button" value="退座">退座</button>
 		</div>
 		<nav>
@@ -73,9 +72,10 @@
 		<span></span>
 	</div>
 </body>
-<script src="http://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
-<script src="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-<script src="/libraryso/Public/js/Floorlist/floorlist.js"></script>
-<script src="/libraryso/Public/js/Seatinfo/seatInfo.js"></script>
-
+<script src=""></script>
+<script src="http://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js" type="text/javascript"></script>
+<script src="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/js/bootstrap.min.js"  type="text/javascript"></script>
+<script src="http://api.map.baidu.com/api?v=2.0&ak=PZNez9C0E6GX0Z425hgTrE3ari8y33O2"  type="text/javascript"></script>
+<script src="/libraryso/Public/js/Floorlist/floorlist.js" type="text/javascript"></script>
+<script src="/libraryso/Public/js/Seatinfo/seatInfo.js"type="text/javascript"></script>
 </html>
