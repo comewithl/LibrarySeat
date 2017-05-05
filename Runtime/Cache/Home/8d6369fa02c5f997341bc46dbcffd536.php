@@ -13,7 +13,7 @@
 	<div class="box">
 		<!--<div class="d1">座位信息</div>-->
 		<div class="d2">
-			<a href="#"><img class="photo stu-pic" src="/libraryso/Public/img/people1.png"></a>
+			<a href="#"><img class="photo stu-pic" src="/libraryso/Public/img/people.jpg"></a>
 			<div class="menu">
 				<img class="more" src="/libraryso/Public/img/更多.png">
 				<ul class="more-ul">
@@ -48,19 +48,19 @@
 		</div>
 		<nav>
     <div class="user">
-        <img src="/libraryso/Public/img/people1.png">
+        <img src="/libraryso/Public/img/people.jpg">
         <div class="user-info">
-            <p class="school-num number"></p>
-            <p class="stu-name name"></p>
+            <p class="school-num number"><?php echo ($number); ?></p>
+            <p class="stu-name name"><?php echo ($name); ?></p>
         </div>
     </div>
     <ul class="slide-ul">
-        <li><a href="#"><span class="glyphicon glyphicon-user"></span>个人资料</a></li>
+        <li><a href="/libraryso/index.php/home/floorlist/floorlist"><span class="glyphicon glyphicon glyphicon-eye-open"></span>楼层信息</a></li>
         <li><a href="/libraryso/index.php/home/seatinfo/seatinfo"><span class="glyphicon glyphicon-inbox"></span>我的座位</a></li>
         <li><a href="#"><span class="glyphicon glyphicon-remove"></span>违规记录</a></li>
         <li><a href="/libraryso/index.php/home/feedback/report"><span class="glyphicon glyphicon-search"></span>监督占座</a></li>
-        <li><a href="/libraryso/index.php/home/feedback/report"><span class="glyphicon glyphicon-transfer"></span>问题反馈</a></li>
-        <li><a href="#"><span class="glyphicon glyphicon-list"></span>关于我们</a></li>
+        <!--<li><a href="/libraryso/index.php/home/feedback/report"><span class="glyphicon glyphicon-transfer"></span>问题反馈</a></li>-->
+        <!--<li><a href="#"><span class="glyphicon glyphicon-list"></span>关于我们</a></li>-->
     </ul>
 </nav>
 		<div class="zz"></div>

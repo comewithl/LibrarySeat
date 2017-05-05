@@ -7,7 +7,7 @@
         /*楼层选择页面展示*/
         public function floorlist()
         {
-            $User = M("student_info");            //数据库查询详细信息
+            $User = M("student_info");            //数据库查询咯详细信息
             $condition['Number'] = $_COOKIE['Number'];
             $result = $User->where($condition)->field('number','name')->limit(1)->select();
             $name=$result[0]['name'];

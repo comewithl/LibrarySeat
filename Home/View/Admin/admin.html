@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-widht initial-scale=1.0">
+    <link href="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/libraryso/Public/css/Admin/admin.css">
+
+    <title>管理页面</title>
+
+</head>
+<body>
+    <div class="info_header">举报</div>
+    <div class="feedback_wrapper">
+
+
+    </div>
+
+<!--举报显示模板-->
+<script type="text/template" id="reporterShow">
+    <% _.each(obj,function(item){%>
+        <div class="section" data-seatName="">
+            <span  class="close_icon" onclick="">&times;</span>
+            <div class="section_row">
+                <div class="row_title">举报学号：</div>
+                <div class="row_content"><%= item.reporter_number%></div>
+            </div>
+            <div class="section_row">
+                <div class="row_title">楼层：</div>
+                <div class="row_content"><%= item.classroom%></div>
+            </div>
+            <div class="section_row">
+                <div class="row_title">座位号：</div>
+                <div class="row_content"><%= item.seatId%></div>
+            </div>
+
+            <div class="section_row">
+                <div class="row_title">举报时间：</div>
+                <div class="row_content"><%= item.reporte_time%></div>
+            </div>
+            <div class="section_botton">
+                <button class="v_left">座位状态</button>
+                <button class="v_right">通过</button>
+            </div>
+        </div>
+    <% })%>
+</script>
+    <script src="http://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
+
+    <script type="text/javascript" src="/libraryso/Public/js/underscore-min.js"></script>
+    <script type="text/javascript" src="/libraryso/Public/js/Admin/admin.js"></script>
+</body>
+</html>

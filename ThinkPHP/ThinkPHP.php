@@ -43,6 +43,7 @@ define('USERSTATE_ORDER',2);
 define('USERSTATE_OCCUPY',3);
 define('USERSTATE_TEM',4);
 
+
 // 系统常量定义
 defined('THINK_PATH')   or define('THINK_PATH',     __DIR__.'/');
 defined('APP_PATH')     or define('APP_PATH',       dirname($_SERVER['SCRIPT_FILENAME']).'/');

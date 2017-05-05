@@ -5,7 +5,7 @@
 	<meta name="viewport" content="width=device-widht initial-scale=1.0">
 	<link href="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
 	<link rel="stylesheet" href="/libraryso/Public/css/Login/login.css">
-	<title>注册页面</title>
+	<title>登录页面</title>
 </head>
 
 <body>

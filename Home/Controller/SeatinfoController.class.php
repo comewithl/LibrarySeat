@@ -20,11 +20,7 @@
                     $this->display('seatinfo/seatinfozanli');
                     break;
                 default:
-                    $result=array(
-                        'successflag' => false,
-                        'imf' => '你还未选择座位！'
-                    );
-                    $this->ajaxReturn($result);
+                    $this->error('你还未选择座位');
                     break;
             }
         }

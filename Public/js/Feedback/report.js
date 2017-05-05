@@ -16,7 +16,7 @@
         $(".more-ul").toggle()
     })
 
-
+    /*查询座位使用状态*/
     $("#submit").click(function(){
 
         floor=$("#floor-input").val();
@@ -48,8 +48,8 @@
             url:"/libraryso/index.php/home/feedback/sreport",
             data:{"floor":floor,"seat":seat},
             success:function($data){
-                if(!$data) {
-                    alert("举报成功，现在该座位可以正常选座了！");
+                if($data) {
+                    alert("举报成功,等待管理员审核！");
                     window.location.href = "/libraryso/index.php/home/floorlist/floorlist";
                 }else{
                     alert("举报失败，请检查重试！");

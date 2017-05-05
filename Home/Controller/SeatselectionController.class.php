@@ -103,7 +103,11 @@
             $User = M("student_info");                 //查询学生的具体信息
             $condition2['Number'] = $_COOKIE['Number'];
             $info = $User->where($condition2)->select();
-
+            /*该用户已有座位或者未登录*/
+            if($info[0]['state_flag'] != USERSTATE_LOGIN){
+                $result = 2;
+                $this -> ajaxReturn($result);
+            }
             if($info[0]['sex'] == 1){
                 /*男生预约*/
                 /*座位状态改变*/
@@ -148,7 +152,7 @@
                 $this -> ajaxReturn($result);
             }
         }
-
+        /*四楼选座功能响应*/
         public function seatselect04()
         {
             $seat_id = $_POST['choos'];   //获取选择的座位的id
@@ -168,6 +172,11 @@
             $User = M("student_info");                 //查询学生的具体信息
             $condition2['Number'] = $_COOKIE['Number'];
             $info = $User->where($condition2)->select();
+
+            if($info[0]['state_flag'] != USERSTATE_LOGIN){
+                $result = 2;
+                $this -> ajaxReturn($result);
+            }
 
             if($info[0]['sex'] == 1){
                 /*男生预约*/

@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
-	<script src="/libraryso/Public/js/jquery-2.2.1.min.js"></script>
+
 	<link rel="stylesheet" href="/libraryso/Public/css/seatTest.css">
 	<title>图书馆选座界面</title>
 </head>
@@ -5977,7 +5977,8 @@
 	</div>
 		<input id="seat_confirm" type="button" value="选座" disabled="disabled">
 	</div>
-
+<script src="/libraryso/Public/js/jquery-2.2.1.min.js"></script>
+<script src="/libraryso/Public/js/common.js" type="text/javascript"></script>
 <script src="/libraryso/Public/js/Seatselection/seatSelectionTwo.js" type="text/javascript"></script>
 </body>
 </html>

@@ -2,20 +2,20 @@
  * Created by Administrator on 2017/4/23.
  */
 (function(global){
-    $(".userId").blur(function(){
-        var reg=/^\d{8}$/;
-        if(this.value.match(reg)==null){
-            $(".resultP").html("学号应为8位数字");
-        }else{
-            $(".resultP").html("");
-        }
-    });
+    // $(".userId").blur(function(){
+    //     var reg=/^\d{8}$/;
+    //     if(this.value.match(reg)==null){
+    //         $(".resultP").html("管理员应为8位数字");
+    //     }else{
+    //         $(".resultP").html("");
+    //     }
+    // });
 })(window);
 function infoSubmit(){
 
     $.ajax({
         type:"POST",
-        url:"/libraryso/index.php/home/login/check",
+        url:"/libraryso/index.php/home/admin/check",
         data:{"userId":$(".userId").val(),"userKey":$(".userKey").val()},
         success:function(data){
             if(data==0){
@@ -27,7 +27,7 @@ function infoSubmit(){
             }
             else if(data==3){
                 alert("恭喜你！登录成功！");
-                window.location.href="/libraryso/index.php/home/floorlist/floorlist?userId="+$(".userId").val();
+                window.location.href="/libraryso/index.php/home/admin/admin";
             }
         },
         error:function(XMLHTTPRequest,statusText,errorThrown){

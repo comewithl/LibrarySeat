@@ -75,12 +75,14 @@ function chooseConfirm () {
         },
         dataType:"text",
         success:function($date){
-            if($date == 0){
+            if($date == CHOOSE_SEAT_STATE.HAVEUSER){
                 alert("选座失败,座位已经被选了！");
                 refreshSeatShow();
-            }else{
+            }else if($date == CHOOSE_SEAT_STATE.SUCCESS){
                 alert("恭喜你！选座成功！");
                 window.location.href = "/libraryso/index.php/home/seatinfo/seatinfoyuyue";
+            }else if($date == CHOOSE_SEAT_STATE.HAVESEAT){
+                alert("一个用户只能有一个座位，请先退坐");
             }
         },
         error:function(XMLHttpRequest, textStatus, errorThrown) {

@@ -3,13 +3,23 @@
     use Think\Controller;
     use Think\Model;
 
-    class LoginController extends Controller{
+    class AdminController extends Controller{
         /*登录页面展示*/
-        public function login()
+        public function adminLogin()
         {
             $this -> display();
         }
-
+        public function admin()
+        {
+            $this -> display();
+        }
+        /*获取举报信息*/
+        public function reportImf(){
+            $Report=M('seat_report');
+            $condition['confirm_result'] ='noConfirm';
+            $report_info=$Report->where($condition)->order('Seat_name asc')->select();
+            $this->ajaxReturn($report_info);
+        }
         /*登录信息校对*/
         public function check()
         {
@@ -22,22 +32,19 @@
                 $password_inp = $_POST['userKey'];  //获取学生输入的密码
 
                 /*数据库查询密码操作*/
-                $User = M("student_info");
-                $condition['Number'] = $number_inp;
-                $stu = $User->where($condition)->select();
+                $User = M("admin_info");
+                $condition['admin_name'] = $number_inp;
+                $stu = $User->where($condition)->field('admin_password')->select();
 
-                $password = $stu[0]['password'];
+                $password = $stu[0]['admin_password'];
 
                 /*密码校验*/
                 if($password_inp != $password) {
                     $this->ajaxReturn(2);        //帐号或密码错误，返回提示信息
                 }else{
-                    if($condition['state_flag'] == 0) {
-                        $date['State_flag'] = 1;
-                        //用户绑定成功，改变用户的状态
-                        $User->where($condition)->save($date);
+                    $date['State_flag'] = 1;            //用户绑定成功，改变用户的状态
+                    $User->where($condition)->save($date);
 
-                    }
                     cookie('Number',$number_inp,3600*24*365*4);     //用户的信息存入cookies
 
                     $this -> ajaxReturn(3);     //绑定成功

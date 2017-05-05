@@ -1,32 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/Home/Controller/SeatinfoController.class.php" line="48" />
+    <bookmark url="file://$PROJECT_DIR$/Home/Controller/SeatinfoController.class.php" line="44" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ede75d3b-dc09-4849-bb9f-3b378bf8ce38" name="默认" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/_loadding.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/foot.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/head.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/js/Seatinfo/seatInfo.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/nav_left.html" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Home/View/Seatinfo/_seatInfoTpl.html" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/img/people.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Home/Controller/AdminController.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Home/View/Admin/admin.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Home/View/Admin/adminLogin.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/css/Admin/admin.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/css/Feedback/report.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/js/Admin/admin.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/js/Admin/adminLogin.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Public/js/jquery.panelslider.min.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Home/Controller/FeedbackController.class.php" afterPath="$PROJECT_DIR$/Home/Controller/FeedbackController.class.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Home/Controller/FloorlistController.class.php" afterPath="$PROJECT_DIR$/Home/Controller/FloorlistController.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Home/Controller/IndexController.class.php" afterPath="$PROJECT_DIR$/Home/Controller/IndexController.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Home/Controller/LoginController.class.php" afterPath="$PROJECT_DIR$/Home/Controller/LoginController.class.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Home/Controller/SeatinfoController.class.php" afterPath="$PROJECT_DIR$/Home/Controller/SeatinfoController.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Home/Controller/SeatselectionController.class.php" afterPath="$PROJECT_DIR$/Home/Controller/SeatselectionController.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Home/View/Feedback/report.html" afterPath="$PROJECT_DIR$/Home/View/Feedback/report.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Home/View/Floorlist/floorlist.html" afterPath="$PROJECT_DIR$/Home/View/Floorlist/floorlist.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Home/View/Login/login.html" afterPath="$PROJECT_DIR$/Home/View/Login/login.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Home/View/Seatinfo/seatinfoyuyue.html" afterPath="$PROJECT_DIR$/Home/View/Seatinfo/seatinfoyuyue.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Home/View/Seatinfo/seatinfozanli.html" afterPath="$PROJECT_DIR$/Home/View/Seatinfo/seatinfozanli.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Home/View/Seatinfo/seatinfozhanyong.html" afterPath="$PROJECT_DIR$/Home/View/Seatinfo/seatinfozhanyong.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/js/Floorlist/floorlist.js" afterPath="$PROJECT_DIR$/Public/js/Floorlist/floorlist.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Home/View/Seatselection/seatselection02.html" afterPath="$PROJECT_DIR$/Home/View/Seatselection/seatselection02.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Home/View/Seatselection/seatselection04.html" afterPath="$PROJECT_DIR$/Home/View/Seatselection/seatselection04.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/js/Feedback/report.js" afterPath="$PROJECT_DIR$/Public/js/Feedback/report.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/js/Login/login.js" afterPath="$PROJECT_DIR$/Public/js/Login/login.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/js/Seatselection/seatSelectionFour.js" afterPath="$PROJECT_DIR$/Public/js/Seatselection/seatSelectionFour.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/js/Seatselection/seatSelectionTwo.js" afterPath="$PROJECT_DIR$/Public/js/Seatselection/seatSelectionTwo.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/js/common.js" afterPath="$PROJECT_DIR$/Public/js/common.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/nav_left.html" afterPath="$PROJECT_DIR$/Public/nav_left.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Runtime/Cache/Home/02d4070434358a11f9452e58d1149f17.php" afterPath="$PROJECT_DIR$/Runtime/Cache/Home/02d4070434358a11f9452e58d1149f17.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Runtime/Cache/Home/054e7dfbaa2d52a0ce74768c0bc54154.php" afterPath="$PROJECT_DIR$/Runtime/Cache/Home/054e7dfbaa2d52a0ce74768c0bc54154.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Runtime/Cache/Home/58624974aa19d5605972e06a6a8aa955.php" afterPath="$PROJECT_DIR$/Runtime/Cache/Home/58624974aa19d5605972e06a6a8aa955.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Runtime/Cache/Home/5f23f25727ba51f0537f467fb37b6547.php" afterPath="$PROJECT_DIR$/Runtime/Cache/Home/5f23f25727ba51f0537f467fb37b6547.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Runtime/Cache/Home/776e54288576cd6090ddc7a6cf6fee9f.php" afterPath="$PROJECT_DIR$/Runtime/Cache/Home/776e54288576cd6090ddc7a6cf6fee9f.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Runtime/Cache/Home/8d6369fa02c5f997341bc46dbcffd536.php" afterPath="$PROJECT_DIR$/Runtime/Cache/Home/8d6369fa02c5f997341bc46dbcffd536.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Runtime/Cache/Home/ce1130aaad01eeb1599440ed3903843c.php" afterPath="$PROJECT_DIR$/Runtime/Cache/Home/ce1130aaad01eeb1599440ed3903843c.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Runtime/Cache/Home/e61bcf510cf5253562f669a0fe0a0c69.php" afterPath="$PROJECT_DIR$/Runtime/Cache/Home/e61bcf510cf5253562f669a0fe0a0c69.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Runtime/Cache/Home/edd735e4ab208debfa58eba0686d1295.php" afterPath="$PROJECT_DIR$/Runtime/Cache/Home/edd735e4ab208debfa58eba0686d1295.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Runtime/Cache/Home/ee722a768c6e7c1729e95ecdccc66127.php" afterPath="$PROJECT_DIR$/Runtime/Cache/Home/ee722a768c6e7c1729e95ecdccc66127.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/ThinkPHP.php" afterPath="$PROJECT_DIR$/ThinkPHP/ThinkPHP.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/js/Seatinfo/seatInfoyuyue.css" afterPath="$PROJECT_DIR$/Public/css/Seatinfo/seatInfoyuyue.css" />
     </list>
     <ignored path="libraryso.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -66,129 +83,66 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="FloorlistController.class.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Home/Controller/FloorlistController.class.php">
+      <file leaf-file-name="admin.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Home/View/Admin/admin.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="12" column="37" lean-forward="true" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
+            <state relative-caret-position="299">
+              <caret line="24" column="50" lean-forward="true" selection-start-line="24" selection-start-column="50" selection-end-line="24" selection-end-column="50" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SeatinfoController.class.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Home/Controller/SeatinfoController.class.php">
+      <file leaf-file-name="admin.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Public/css/Admin/admin.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="4" column="10" lean-forward="false" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="46" />
-              <folding>
-                <element signature="e#1119#1202#0#PHP" expanded="false" />
-                <element signature="e#1233#1319#0#PHP" expanded="false" />
-                <element signature="e#1350#1433#0#PHP" expanded="false" />
-                <element signature="e#1468#2523#0#PHP" expanded="false" />
-                <element signature="e#2558#3620#0#PHP" expanded="false" />
-                <element signature="e#3655#4706#0#PHP" expanded="false" />
-                <element signature="e#4738#6664#0#PHP" expanded="false" />
-                <element signature="e#9034#10076#0#PHP" expanded="false" />
-                <element signature="e#10107#11097#0#PHP" expanded="false" />
-                <element signature="e#11132#11780#0#PHP" expanded="false" />
-                <element signature="e#11815#12510#0#PHP" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="seatinfoyuyue.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Home/View/Seatinfo/seatinfoyuyue.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="505">
-              <caret line="35" column="8" lean-forward="false" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="48" />
-              <folding>
-                <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="nav_left.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Public/nav_left.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="4" column="21" lean-forward="false" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+            <state relative-caret-position="345">
+              <caret line="51" column="15" lean-forward="true" selection-start-line="51" selection-start-column="15" selection-end-line="51" selection-end-column="15" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="floorlist.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Public/js/Floorlist/floorlist.js">
+      <file leaf-file-name="admin.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Public/js/Admin/admin.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="22" column="9" lean-forward="true" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+            <state relative-caret-position="437">
+              <caret line="21" column="50" lean-forward="false" selection-start-line="21" selection-start-column="50" selection-end-line="21" selection-end-column="50" />
               <folding>
-                <element signature="e#0#49#0" expanded="false" />
+                <element signature="e#0#48#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="seatinfozhanyong.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Home/View/Seatinfo/seatinfozhanyong.html">
+      <file leaf-file-name="adminLogin.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Home/View/Admin/adminLogin.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="43" column="48" lean-forward="false" selection-start-line="43" selection-start-column="48" selection-end-line="43" selection-end-column="48" />
+            <state relative-caret-position="415">
+              <caret line="35" column="50" lean-forward="false" selection-start-line="35" selection-start-column="40" selection-end-line="35" selection-end-column="50" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="seatinfozanli.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Home/View/Seatinfo/seatinfozanli.html">
+      <file leaf-file-name="adminLogin.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Public/js/Admin/adminLogin.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="28" column="28" lean-forward="false" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
-              <folding>
-                <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="seatInfo.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Public/js/Seatinfo/seatInfo.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="14" column="62" lean-forward="false" selection-start-line="14" selection-start-column="62" selection-end-line="14" selection-end-column="62" />
-              <folding>
-                <element signature="e#0#49#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="floorlist.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Home/View/Floorlist/floorlist.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
-              <caret line="88" column="53" lean-forward="false" selection-start-line="88" selection-start-column="44" selection-end-line="88" selection-end-column="53" />
-              <folding>
-                <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_loadding.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Public/_loadding.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="332">
+              <caret line="20" column="24" lean-forward="true" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AdminController.class.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Home/Controller/AdminController.class.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="208">
+              <caret line="38" column="43" lean-forward="false" selection-start-line="38" selection-start-column="43" selection-end-line="38" selection-end-column="43" />
+              <folding>
+                <element signature="e#350#613#0#PHP" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -198,44 +152,44 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
-        <option value="CSS File" />
         <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>$this -&gt; display();</find>
-      <find>$this -&gt; display()</find>
-      <find>$this -&gt; display(</find>
-      <find>getDistance</find>
-      <find>$this -&gt; display</find>
-      <find>$_</find>
-      <find>$_P</find>
-      <find>$_PO</find>
-      <find>$_POs</find>
-      <find>$_POst</find>
-      <find>floorlist.js</find>
-      <find>w</find>
-      <find>我的zuo</find>
-      <find>我的zuowei</find>
-      <find>$this-&gt;display</find>
+      <find>stu-pic</find>
+      <find>/libraryso/Public/img/people1.png</find>
+      <find>s</find>
+      <find>sea</find>
+      <find>seat</find>
+      <find>seatT</find>
+      <find>seatTe</find>
+      <find>seatTes</find>
+      <find>seatTest</find>
+      <find>jquery.panelslider.min</find>
+      <find>p</find>
+      <find>peole</find>
+      <find>peol</find>
+      <find>peo</find>
+      <find>peop</find>
+      <find>peopl</find>
+      <find>people</find>
+      <find>people1</find>
+      <find>people1.png</find>
+      <find>people1.pn</find>
+      <find>people1.p</find>
+      <find>people1.</find>
+      <find>people1.j</find>
+      <find>people1.jp</find>
+      <find>people1.jpg</find>
       <find>￥</find>
       <find>$</find>
-      <find>stu</find>
-      <find>我的座位</find>
-      <find>$this</find>
-      <find>debu</find>
-      <find>seatinfo/seatinfoyuyue</find>
-      <find>TMPL_ACTION_ERROR</find>
-      <find>window.location.href</find>
-      <find>$result</find>
-      <find>more</find>
-      <find>zz</find>
-      <find>学号</find>
-      <find>占用时间</find>
-      <find>时间</find>
+      <find>$.a</find>
+      <find>$.aj</find>
+      <find>$.ajax</find>
     </findStrings>
     <replaceStrings>
       <replace>/libraryso/index.php/home</replace>
@@ -245,13 +199,17 @@
       <replace>&quot;/libraryso</replace>
       <replace>$seatCondition</replace>
       <replace>seatinfo/seatinfo</replace>
+      <replace>/libraryso/Public/img/user.png</replace>
+      <replace>people.jpg</replace>
     </replaceStrings>
     <dirStrings>
       <dir>F:\a.Study_software\XAMPP\htdocs\libraryso\Home</dir>
-      <dir>F:\a.Study_software\XAMPP\htdocs\libraryso\Home\View</dir>
       <dir>F:\a.Study_software\XAMPP\htdocs\libraryso\Home\Controller</dir>
       <dir>F:\a.Study_software\XAMPP\htdocs\libraryso\Home\View\Seatinfo</dir>
       <dir>F:\a.Study_software\XAMPP\htdocs\libraryso</dir>
+      <dir>F:\a.Study_software\XAMPP\htdocs\libraryso\Home\View</dir>
+      <dir>F:\a.Study_software\XAMPP\htdocs\libraryso\Public</dir>
+      <dir>F:\a.Study_software\XAMPP\htdocs\libraryso\Public\js</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -260,39 +218,18 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Home/View/Seatinfo/seatinfozanli.php" />
-        <option value="$PROJECT_DIR$/Home/View/Seatinfo/seatinfozhanyong.php" />
-        <option value="$PROJECT_DIR$/Public/css/jq22.css" />
-        <option value="$PROJECT_DIR$/Public/css/orbit-1.2.3.css" />
-        <option value="$PROJECT_DIR$/Home/View/Login/login.php" />
-        <option value="$PROJECT_DIR$/Home/View/Seatselection/seatselection.php" />
-        <option value="$PROJECT_DIR$/Home/View/Seatselection/seatselection.html" />
-        <option value="$PROJECT_DIR$/Home/View/Seatinfo/seatinfoyuyue.php" />
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/59a43371-da86-4d54-bdf2-fd3822938924/console.sql" />
-        <option value="$PROJECT_DIR$/Home/Controller/SeatselectionController.class.php" />
-        <option value="$PROJECT_DIR$/Home/Controller/FeedbackController.class.php" />
         <option value="$PROJECT_DIR$/Public/css/seatTest2.css" />
         <option value="$PROJECT_DIR$/Public/css/seatTest.css" />
         <option value="$PROJECT_DIR$/Home/Conf/config.php" />
-        <option value="$PROJECT_DIR$/Home/Controller/LoginController.class.php" />
         <option value="$PROJECT_DIR$/Public/js/seatTest.js" />
-        <option value="$PROJECT_DIR$/Public/js/Feedback/report.js" />
-        <option value="$PROJECT_DIR$/Home/View/Feedback/report.html" />
         <option value="$PROJECT_DIR$/Public/js/Floorlist/fllorlist.js" />
-        <option value="$PROJECT_DIR$/Public/js/Seatselection/seatSelectionTwo.js" />
-        <option value="$PROJECT_DIR$/Home/View/Seatselection/seatselection02.html" />
-        <option value="$PROJECT_DIR$/Public/js/Seatselection/seatSelectionFour.js" />
-        <option value="$PROJECT_DIR$/Home/View/Seatselection/seatselection04.html" />
-        <option value="$PROJECT_DIR$/Home/View/Login/login.html" />
         <option value="$PROJECT_DIR$/Public/css/Login/login.css" />
         <option value="$PROJECT_DIR$/Public/css/Floorlist/floorlist.css" />
         <option value="$PROJECT_DIR$/Home/View/userOperatiionCenter/userOperationCenter.html" />
         <option value="$PROJECT_DIR$/Home/Controller/UserOperationCenterController.class.php" />
         <option value="$PROJECT_DIR$/Home/Controller/UserOperationController.class.php" />
         <option value="$PROJECT_DIR$/Home/View/UserOperation/useroperation.html" />
-        <option value="$PROJECT_DIR$/Public/js/Login/login.js" />
-        <option value="$PROJECT_DIR$/Public/js/common.js" />
         <option value="$PROJECT_DIR$/Home/View/Seatinfo/_seatInfoTpl.html" />
         <option value="$PROJECT_DIR$/Public/js/Seatinfo/seatInfoyuyue.css" />
         <option value="$PROJECT_DIR$/Home/Controller/IndexController.class.php" />
@@ -301,16 +238,37 @@
         <option value="$PROJECT_DIR$/Public/css/global.css" />
         <option value="$PROJECT_DIR$/Public/js/Floorlist/floorlist.js" />
         <option value="$PROJECT_DIR$/Public/js/Seatinfo/seatInfo.js" />
-        <option value="$PROJECT_DIR$/ThinkPHP/ThinkPHP.php" />
-        <option value="$PROJECT_DIR$/Home/Controller/SeatinfoController.class.php" />
         <option value="$PROJECT_DIR$/Public/head.html" />
         <option value="$PROJECT_DIR$/Public/foot.html" />
+        <option value="$PROJECT_DIR$/Home/Controller/FloorlistController.class.php" />
+        <option value="$PROJECT_DIR$/Public/js/Login/login.js" />
+        <option value="$PROJECT_DIR$/Home/Controller/SeatinfoController.class.php" />
+        <option value="$PROJECT_DIR$/Public/css/Feedback/report.css" />
+        <option value="$PROJECT_DIR$/Home/View/Feedback/report.html" />
+        <option value="$PROJECT_DIR$/Public/js/common.js" />
+        <option value="$PROJECT_DIR$/Public/js/Seatselection/seatSelectionTwo.js" />
+        <option value="$PROJECT_DIR$/ThinkPHP/ThinkPHP.php" />
+        <option value="$PROJECT_DIR$/Public/js/Seatselection/seatSelectionFour.js" />
+        <option value="$PROJECT_DIR$/Home/Controller/SeatselectionController.class.php" />
+        <option value="$PROJECT_DIR$/Home/View/Seatselection/seatselection02.html" />
+        <option value="$PROJECT_DIR$/Home/View/Seatselection/seatselection04.html" />
         <option value="$PROJECT_DIR$/Home/View/Seatinfo/seatinfoyuyue.html" />
-        <option value="$PROJECT_DIR$/Home/View/Seatinfo/seatinfozhanyong.html" />
         <option value="$PROJECT_DIR$/Home/View/Seatinfo/seatinfozanli.html" />
+        <option value="$PROJECT_DIR$/Home/View/Seatinfo/seatinfozhanyong.html" />
         <option value="$PROJECT_DIR$/Home/View/Floorlist/floorlist.html" />
         <option value="$PROJECT_DIR$/Public/nav_left.html" />
-        <option value="$PROJECT_DIR$/Home/Controller/FloorlistController.class.php" />
+        <option value="$PROJECT_DIR$/Home/View/Login/login.html" />
+        <option value="$PROJECT_DIR$/Home/Controller/AdminContorller.class.php" />
+        <option value="$PROJECT_DIR$/Public/css/Admin/adminLogin.css" />
+        <option value="$PROJECT_DIR$/Home/View/Admin/adminLogin.html" />
+        <option value="$PROJECT_DIR$/Public/js/Admin/adminLogin.js" />
+        <option value="$PROJECT_DIR$/Home/Controller/LoginController.class.php" />
+        <option value="$PROJECT_DIR$/Home/Controller/FeedbackController.class.php" />
+        <option value="$PROJECT_DIR$/Public/js/Feedback/report.js" />
+        <option value="$PROJECT_DIR$/Home/Controller/AdminController.class.php" />
+        <option value="$PROJECT_DIR$/Public/js/Admin/admin.js" />
+        <option value="$PROJECT_DIR$/Home/View/Admin/admin.html" />
+        <option value="$PROJECT_DIR$/Public/css/Admin/admin.css" />
       </list>
     </option>
   </component>
@@ -326,8 +284,9 @@
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
-    <option name="width" value="1386" />
-    <option name="height" value="788" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -361,7 +320,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -412,6 +370,46 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="Public" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="libraryso" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="libraryso" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Public" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Admin" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="libraryso" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="libraryso" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="Home" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
@@ -438,7 +436,29 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Seatinfo" />
+              <option name="myItemId" value="Feedback" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="libraryso" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="libraryso" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Home" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="View" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Admin" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -474,8 +494,27 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="libraryso" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="libraryso" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Home" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Conf" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -489,11 +528,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\a.Study_software\XAMPP\htdocs\libraryso\Public\img" />
       <recent name="F:\a.Study_software\XAMPP\htdocs\libraryso\Public" />
       <recent name="F:\a.Study_software\XAMPP\htdocs\libraryso\Public\css" />
       <recent name="F:\a.Study_software\XAMPP\htdocs\libraryso\Public\js" />
       <recent name="D:\wampsever\wamp64\www\libraryso\Home\View\Seatselection" />
-      <recent name="D:\wampsever\wamp64\www\libraryso\Home\View\Seatinfo" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -640,11 +679,14 @@
       <workItem from="1493183081896" duration="592000" />
       <workItem from="1493196494879" duration="597000" />
       <workItem from="1493272861309" duration="12470000" />
+      <workItem from="1493778557241" duration="5845000" />
+      <workItem from="1493800499340" duration="2285000" />
+      <workItem from="1493970909177" duration="15797000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="136451000" />
+    <option name="totallyTimeSpent" value="160378000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -656,12 +698,13 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="0" width="1386" height="788" extended-state="1" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2759124" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27525622" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17007299" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32649842" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17803837" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -674,7 +717,6 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32743362" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -714,149 +756,24 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="6" />
+      <option name="time" value="7" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Runtime/Cache/Home/b84f1cc6210e1baad38ba439d96bdf14.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="8" column="39" lean-forward="false" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
-        </state>
+    <entry file="file://$PROJECT_DIR$/Public/img/head_img.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Runtime/Cache/Home/b8d15cb274db3685c3d11e71696b7b2d.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="131" column="43" lean-forward="false" selection-start-line="131" selection-start-column="43" selection-end-line="131" selection-end-column="43" />
-        </state>
+    <entry file="file://$PROJECT_DIR$/Public/img/hd2.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Runtime/Cache/Home/bee10317079d58f8240adc7da90cb21f.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="98" column="17" lean-forward="false" selection-start-line="98" selection-start-column="17" selection-end-line="98" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Runtime/Cache/Home/bfc3402b08a77eadcfceb8979f757a03.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="131" column="43" lean-forward="false" selection-start-line="131" selection-start-column="43" selection-end-line="131" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Runtime/Cache/Home/c19a4ae3e87ddabff14b16e2f4de8914.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="131" column="43" lean-forward="false" selection-start-line="131" selection-start-column="43" selection-end-line="131" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Runtime/Cache/Home/e61bcf510cf5253562f669a0fe0a0c69.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Runtime/Cache/Home/e44177f5f27354a4a56960dcffd632cc.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="101" column="17" lean-forward="false" selection-start-line="101" selection-start-column="17" selection-end-line="101" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Public/js/Feedback/report.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="9" column="36" lean-forward="true" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Home/View/Feedback/report.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="275" column="0" lean-forward="true" selection-start-line="275" selection-start-column="0" selection-end-line="275" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Public/css/seatTest.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3300">
-          <caret line="102" column="5" lean-forward="true" selection-start-line="102" selection-start-column="5" selection-end-line="102" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Home/View/Seatselection/seatselection02.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="5980" column="90" lean-forward="false" selection-start-line="5980" selection-start-column="90" selection-end-line="5980" selection-end-column="90" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Public/js/Seatselection/seatSelectionTwo.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="3" lean-forward="false" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Public/js/Seatselection/seatSelectionFour.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Home/View/Seatselection/seatselection04.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1642">
-          <caret line="5926" column="21" lean-forward="true" selection-start-line="5926" selection-start-column="21" selection-end-line="5926" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Public/css/Login/login.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="10" column="23" lean-forward="false" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Home/Controller/LoginController.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="91">
-          <caret line="7" column="31" lean-forward="true" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Home/Controller/UserOperationController.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="14" column="33" lean-forward="false" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Home/View/UserOperation/useroperation.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" column="16" lean-forward="true" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Home/View/Login/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="26" column="21" lean-forward="false" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Public/js/common.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-        </state>
+    <entry file="file://$PROJECT_DIR$/Public/img/hd1.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Public/img/floor.png">
@@ -864,174 +781,151 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Public/js/Login/login.js">
+    <entry file="file://$PROJECT_DIR$/Public/img/people1.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/img/points.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/img/密码.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/img/座位 (女在).png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/img/座位 (女在)_reverse.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/img/user.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/img/up-line.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/img/search.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/js/Seatinfo/seatInfo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-943">
+          <caret line="15" column="64" lean-forward="true" selection-start-line="15" selection-start-column="64" selection-end-line="15" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/css/seatTest.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1725">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/css/seatTest2.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Public/js/underscore-min.js">
+    <entry file="file://$PROJECT_DIR$/Public/css/loadingCss.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Home/View/Seatinfo/_seatInfoTpl.html" />
-    <entry file="file://$PROJECT_DIR$/Public/js/seatTest.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2982">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_3.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2218">
-          <caret line="327" column="17" lean-forward="true" selection-start-line="327" selection-start-column="17" selection-end-line="327" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Public/js/Seatinfo/seatInfoyuyue.css" />
     <entry file="file://$PROJECT_DIR$/Home/Conf/config.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="37" lean-forward="false" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Home/Controller/SeatselectionController.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3174">
-          <caret line="139" column="54" lean-forward="false" selection-start-line="139" selection-start-column="54" selection-end-line="139" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Home/Controller/IndexController.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="25" column="12" lean-forward="true" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Public/css/Seatinfo/seatInfoyuyue.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkPHP/Conf/convention.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
-          <caret line="104" column="61" lean-forward="false" selection-start-line="104" selection-start-column="48" selection-end-line="104" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkPHP/Tpl/dispatch_jump.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="30" column="22" lean-forward="false" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
+        <state relative-caret-position="276">
+          <caret line="12" column="28" lean-forward="false" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Public/tpl/_loadding.html">
+    <entry file="file://$PROJECT_DIR$/Public/css/Feedback/report.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="19" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="6" selection-end-column="8" />
+        <state relative-caret-position="438">
+          <caret line="209" column="0" lean-forward="false" selection-start-line="209" selection-start-column="0" selection-end-line="209" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Home/View/Seatselection/seatselection02.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="5980" column="0" lean-forward="false" selection-start-line="5980" selection-start-column="0" selection-end-line="5980" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/js/common.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="5" column="12" lean-forward="false" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="12" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Home/View/Seatselection/seatselection04.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="736">
+          <caret line="32" column="26" lean-forward="false" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="26" />
+          <folding>
+            <element signature="n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/js/Seatselection/seatSelectionTwo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1932">
+          <caret line="84" column="13" lean-forward="false" selection-start-line="76" selection-start-column="10" selection-end-line="84" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Public/css/Floorlist/floorlist.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4853">
+        <state relative-caret-position="562">
           <caret line="337" column="30" lean-forward="true" selection-start-line="337" selection-start-column="30" selection-end-line="337" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Public/css/global.css">
+    <entry file="file://$PROJECT_DIR$/Public/js/Seatselection/seatSelectionFour.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="11" lean-forward="true" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkPHP/Mode/Lite/Controller.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="505">
-          <caret line="176" column="46" lean-forward="true" selection-start-line="176" selection-start-column="46" selection-end-line="176" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/date/date.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7682">
-          <caret line="20" column="9" lean-forward="false" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkPHP/ThinkPHP.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="37" column="24" lean-forward="false" selection-start-line="37" selection-start-column="24" selection-end-line="37" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Public/head.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="63" lean-forward="false" selection-start-line="5" selection-start-column="63" selection-end-line="5" selection-end-column="63" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Public/foot.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="4" column="87" lean-forward="false" selection-start-line="4" selection-start-column="87" selection-end-line="4" selection-end-column="87" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Public/_loadding.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="3036">
+          <caret line="132" column="30" lean-forward="false" selection-start-line="132" selection-start-column="30" selection-end-line="132" selection-end-column="30" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Home/View/Seatinfo/seatinfoyuyue.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="505">
-          <caret line="35" column="8" lean-forward="false" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="48" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Home/View/Seatinfo/seatinfozhanyong.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="43" column="48" lean-forward="false" selection-start-line="43" selection-start-column="48" selection-end-line="43" selection-end-column="48" />
+        <state relative-caret-position="253">
+          <caret line="11" column="78" lean-forward="false" selection-start-line="11" selection-start-column="78" selection-end-line="11" selection-end-column="78" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Home/View/Seatinfo/seatinfozanli.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="28" column="28" lean-forward="false" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
+        <state relative-caret-position="230">
+          <caret line="10" column="23" lean-forward="false" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
           <folding>
             <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -1042,69 +936,221 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Public/js/Floorlist/floorlist.js">
+    <entry file="file://$PROJECT_DIR$/Home/View/Seatinfo/seatinfozhanyong.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="22" column="9" lean-forward="true" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
-          <folding>
-            <element signature="e#0#49#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Public/js/Seatinfo/seatInfo.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="14" column="62" lean-forward="false" selection-start-line="14" selection-start-column="62" selection-end-line="14" selection-end-column="62" />
-          <folding>
-            <element signature="e#0#49#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="230">
+          <caret line="10" column="78" lean-forward="false" selection-start-line="10" selection-start-column="78" selection-end-line="10" selection-end-column="78" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Home/View/Floorlist/floorlist.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="88" column="53" lean-forward="false" selection-start-line="88" selection-start-column="44" selection-end-line="88" selection-end-column="53" />
-          <folding>
-            <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
+        <state relative-caret-position="322">
+          <caret line="14" column="74" lean-forward="false" selection-start-line="14" selection-start-column="74" selection-end-line="14" selection-end-column="74" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Public/nav_left.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="21" lean-forward="false" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+        <state relative-caret-position="117">
+          <caret line="6" column="14" lean-forward="false" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/js/Login/login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="29" column="32" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="36" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/css/Admin/adminLogin.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Home/View/Login/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="6" column="44" lean-forward="false" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/foot.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="2" column="118" lean-forward="true" selection-start-line="2" selection-start-column="118" selection-end-line="2" selection-end-column="118" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/css/global.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="15" lean-forward="true" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/head.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="5" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/img/no-sign.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Home/View/UserOperation/useroperation.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1058">
+          <caret line="42" column="38" lean-forward="false" selection-start-line="42" selection-start-column="20" selection-end-line="42" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Home/Controller/UserOperationController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/js/Feedback/report.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="51" column="39" lean-forward="false" selection-start-line="51" selection-start-column="39" selection-end-line="51" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Home/View/Feedback/report.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="49" column="6" lean-forward="true" selection-start-line="49" selection-start-column="6" selection-end-line="49" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Home/Controller/SeatselectionController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding>
+            <element signature="e#290#375#0#PHP" expanded="false" />
+            <element signature="e#1424#2397#0#PHP" expanded="false" />
+            <element signature="e#2428#5002#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Home/Controller/FeedbackController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="50" column="14" lean-forward="true" selection-start-line="50" selection-start-column="14" selection-end-line="50" selection-end-column="14" />
+          <folding>
+            <element signature="e#41#59#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Home/Controller/SeatinfoController.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="10" lean-forward="false" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="46" />
+        <state relative-caret-position="253">
+          <caret line="8" column="46" lean-forward="false" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
           <folding>
-            <element signature="e#1119#1202#0#PHP" expanded="false" />
-            <element signature="e#1233#1319#0#PHP" expanded="false" />
-            <element signature="e#1350#1433#0#PHP" expanded="false" />
-            <element signature="e#1468#2523#0#PHP" expanded="false" />
-            <element signature="e#2558#3620#0#PHP" expanded="false" />
-            <element signature="e#3655#4706#0#PHP" expanded="false" />
-            <element signature="e#4738#6664#0#PHP" expanded="false" />
-            <element signature="e#9034#10076#0#PHP" expanded="false" />
-            <element signature="e#10107#11097#0#PHP" expanded="false" />
-            <element signature="e#11132#11780#0#PHP" expanded="false" />
-            <element signature="e#11815#12510#0#PHP" expanded="false" />
+            <element signature="e#966#1049#0#PHP" expanded="false" />
+            <element signature="e#1080#1166#0#PHP" expanded="false" />
+            <element signature="e#1197#1280#0#PHP" expanded="false" />
+            <element signature="e#1315#2370#0#PHP" expanded="false" />
+            <element signature="e#2405#3467#0#PHP" expanded="false" />
+            <element signature="e#3502#4553#0#PHP" expanded="false" />
+            <element signature="e#4585#6511#0#PHP" expanded="false" />
+            <element signature="e#8881#9923#0#PHP" expanded="false" />
+            <element signature="e#9954#10944#0#PHP" expanded="false" />
+            <element signature="e#10979#11627#0#PHP" expanded="false" />
+            <element signature="e#11662#12357#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Home/Controller/FloorlistController.class.php">
+    <entry file="file://$PROJECT_DIR$/Home/Controller/LoginController.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="12" column="37" lean-forward="true" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
+        <state relative-caret-position="507">
+          <caret line="36" column="26" lean-forward="false" selection-start-line="36" selection-start-column="26" selection-end-line="36" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkPHP/ThinkPHP.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="41" column="8" lean-forward="false" selection-start-line="41" selection-start-column="8" selection-end-line="41" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Home/Controller/AdminController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="38" column="43" lean-forward="false" selection-start-line="38" selection-start-column="43" selection-end-line="38" selection-end-column="43" />
+          <folding>
+            <element signature="e#350#613#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/js/Admin/adminLogin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="20" column="24" lean-forward="true" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Home/View/Admin/adminLogin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="415">
+          <caret line="35" column="50" lean-forward="false" selection-start-line="35" selection-start-column="40" selection-end-line="35" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/js/Admin/admin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="21" column="50" lean-forward="false" selection-start-line="21" selection-start-column="50" selection-end-line="21" selection-end-column="50" />
+          <folding>
+            <element signature="e#0#48#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Home/View/Admin/admin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="24" column="50" lean-forward="true" selection-start-line="24" selection-start-column="50" selection-end-line="24" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/css/Admin/admin.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="51" column="15" lean-forward="true" selection-start-line="51" selection-start-column="15" selection-end-line="51" selection-end-column="15" />
           <folding />
         </state>
       </provider>
