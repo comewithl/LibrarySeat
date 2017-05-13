@@ -5,7 +5,6 @@
 (function(global){
     var floor;
     var seat;
-    var floorArray=["02","04"];
     $(".more").mouseover(function(){
         $(this).css("opacity","0.6")
     })
@@ -53,7 +52,7 @@
                     window.location.href = "/libraryso/index.php/home/floorlist/floorlist";
                 }else{
                     alert($data.imf);
-                    window.location.href = "/libraryso/index.php/home/feedback/report";
+                    // window.location.href = "/libraryso/index.php/home/feedback/report";
                 }
             },
             error:function(XMLHTTPRequest,status,errorThrown){
@@ -65,6 +64,7 @@
 })(window);
 
 function flootCheck(){
+    var floorArray=["02","04"];
     if(floorArray.toString().indexOf(String($("#floor-input").val()))<0){
         alert("请输入02或04");
     }

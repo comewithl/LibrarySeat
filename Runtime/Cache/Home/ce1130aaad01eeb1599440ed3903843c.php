@@ -14,7 +14,7 @@
 	<div class="box">
 		<!--<div class="d1">座位信息</div>-->
 		<div class="d2">
-			<a href="#"><img class="photo stu-pic" src="/libraryso/Public/img/people1.png"></a>
+			<a href="#"><img class="photo stu-pic" src="/libraryso/Public/img/people.jpg"></a>
 			<!-- <div class="btn-group">
 				<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown"><span class="caret"></span>
 				</button>
@@ -47,22 +47,23 @@
 			<button class="btn btn-info btn-tz" id="seatReturn" type="button" value="退座">退座</button>
 		</div>
 		<nav>
-			<div class="user">
-				<img src="/libraryso/Public/img/people1.png">
-				<div class="user-info">
-					<p class="school-num">14051506</p>
-					<p class="stu-name">徐君仪</p>
-				</div>
-			</div>
-			<ul class="slide-ul">
-				<li><a href="#"><span class="glyphicon glyphicon-user"></span>个人资料</a></li>
-				<li><a href="/libraryso/index.php/home/seatinfo/seatinfo"><span class="glyphicon glyphicon-inbox"></span>我的座位</a></li>
-				<li><a href="#"><span class="glyphicon glyphicon-remove"></span>违规记录</a></li>
-				<li><a href="/libraryso/index.php/home/feedback/report"><span class="glyphicon glyphicon-search"></span>监督占座</a></li>
-				<li><a href="/libraryso/index.php/home/feedback/report"><span class="glyphicon glyphicon-transfer"></span>问题反馈</a></li>
-				<li><a href="#"><span class="glyphicon glyphicon-list"></span>关于我们</a></li>
-			</ul>
-		</nav>
+    <div class="user">
+        <img src="/libraryso/Public/img/people.jpg">
+        <div class="user-info">
+            <p class="school-num number"><?php echo ($number); ?></p>
+            <p class="stu-name name"><?php echo ($name); ?></p>
+        </div>
+    </div>
+    <ul class="slide-ul">
+        <li><a href="/libraryso/index.php/home/floorlist/floorlist"><span class="glyphicon glyphicon glyphicon-eye-open"></span>楼层信息</a></li>
+        <li><a href="/libraryso/index.php/home/seatinfo/seatinfo"><span class="glyphicon glyphicon-inbox"></span>我的座位</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-remove"></span>违规记录</a></li>
+        <li><a href="/libraryso/index.php/home/feedback/report"><span class="glyphicon glyphicon-search"></span>监督占座</a></li>
+        <li><a href="/libraryso/index.php/home/login/loginout"><span class="glyphicon glyphicon-log-out"></span>登出</a></li>
+        <!--<li><a href="/libraryso/index.php/home/feedback/report"><span class="glyphicon glyphicon-transfer"></span>问题反馈</a></li>-->
+        <!--<li><a href="#"><span class="glyphicon glyphicon-list"></span>关于我们</a></li>-->
+    </ul>
+</nav>
 		<div class="zz"></div>
 	</div>
 	<div class="loading">
@@ -75,7 +76,7 @@
 </body>
 <script src="http://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js" type="text/javascript"></script>
 <script src="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/js/bootstrap.min.js"  type="text/javascript"></script>
-<script src="http://api.map.baidu.com/api?v=2.0&ak=PZNez9C0E6GX0Z425hgTrE3ari8y33O2"  type="text/javascript"></script>
+<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=tGU18YiFCXpBjkquRL93FChnPZKa4b0C&callback=init"></script>
 <script src="/libraryso/Public/js/Floorlist/floorlist.js" type="text/javascript"></script>
 <script src="/libraryso/Public/js/Seatinfo/seatInfo.js"type="text/javascript"></script>
 </html>

@@ -21,7 +21,7 @@
         {
             /*二楼自习室座位分布数据库查询*/
             $User = M("seat_distribution");
-            $condition['Classroom_num'] = 02;
+            $condition['classroom_num'] = 02;
             $x = $User->where($condition)->select();
 
             $seat_x      = array();
@@ -54,7 +54,7 @@
         {
             /*四楼自习室座位分布数据库查询*/
             $User = M("seat_distribution");
-            $condition['Classroom_num'] = 04;
+            $condition['classroom_num'] = 04;
             $x = $User->where($condition)->select();
 
             $seat_x      = array();
@@ -89,8 +89,8 @@
             $seat_id = $_POST['choosed_seat_id'];   //获取选择的座位的id
 
             $User = M("seat_distribution");          //座位状态查询
-            $condition['Classroom_num'] = 02;
-            $condition['Seat_id']       = $seat_id;
+            $condition['classroom_num'] = 02;
+            $condition['seat_id']       = $seat_id;
             $x = $User->where($condition)->select();
 
             /*如果座位已经被人选了，则返回提示信息*/
@@ -112,17 +112,17 @@
                 /*男生预约*/
                 /*座位状态改变*/
                 $User = M("seat_distribution");
-                $data['Seat_status'] = 1;
-                $condition3['Seat_id']       = $seat_id;
-                $condition3['Classroom_num'] = 02;
+                $data['seat_status'] = 1;
+                $condition3['seat_id']       = $seat_id;
+                $condition3['classroom_num'] = 02;
                 $User->where($condition3)->save($data);
 
                 /*用户信息改变*/
                 $User = M("student_info");
-                $data2['Classroom_num']    = '02';
-                $data2['Seat_id']          = $seat_id;
-                $data2['State_flag']       = 2;
-                $data2['Appointment_time'] = date('Y-m-d H:i:s');
+                $data2['classroom_num']    = '02';
+                $data2['seat_id']          = $seat_id;
+                $data2['state_flag']       = 2;
+                $data2['appointment_time'] = date('Y-m-d H:i:s');
                 $condition4['Number'] = $_COOKIE['Number'];
                 $User->where($condition4)->save($data2);
 
@@ -133,17 +133,17 @@
                 /*女生预约*/
                 /*座位状态改变*/
                 $User = M("seat_distribution");
-                $data['Seat_status'] = 2;
-                $condition3['Seat_id']       = $seat_id;
-                $condition3['Classroom_num'] = 02;
+                $data['seat_status'] = 2;
+                $condition3['seat_id']       = $seat_id;
+                $condition3['classroom_num'] = 02;
                 $User->where($condition3)->save($data);
 
                 /*用户信息改变*/
                 $User = M("student_info");
-                $data2['Classroom_num']    = '02';
-                $data2['Seat_id']          = $seat_id;
-                $data2['State_flag']       = 2;
-                $data2['Appointment_time'] = date('Y-m-d H:i:s');
+                $data2['classroom_num']    = '02';
+                $data2['seat_id']          = $seat_id;
+                $data2['state_flag']       = 2;
+                $data2['appointment_time'] = date('Y-m-d H:i:s');
                 $condition4['Number'] = $_COOKIE['Number'];
                 $User->where($condition4)->save($data2);
 
@@ -158,8 +158,8 @@
             $seat_id = $_POST['choos'];   //获取选择的座位的id
 
             $User = M("seat_distribution");      //座位状态查询
-            $condition['Classroom_num'] = 04;
-            $condition['Seat_id']       = $seat_id;
+            $condition['classroom_num'] = 04;
+            $condition['seat_id']       = $seat_id;
             $x = $User->where($condition)->select();
 
             /*如果座位已经被人选了，则返回提示信息*/
@@ -182,17 +182,17 @@
                 /*男生预约*/
                 /*座位状态改变*/
                 $User = M("seat_distribution");
-                $data['Seat_status'] = 1;
-                $condition3['Seat_id']       = $seat_id;
-                $condition3['Classroom_num'] = 04;
+                $data['seat_status'] = 1;
+                $condition3['seat_id']       = $seat_id;
+                $condition3['classroom_num'] = 04;
                 $User->where($condition3)->save($data);
 
                 /*用户信息改变*/
                 $User = M("student_info");
-                $data2['Classroom_num']    = '04';
-                $data2['Seat_id']          = $seat_id;
-                $data2['State_flag']       = 2;
-                $data2['Appointment_time'] = date('Y-m-d H:i:s');
+                $data2['classroom_num']    = '04';
+                $data2['seat_id']          = $seat_id;
+                $data2['state_flag']       = 2;
+                $data2['appointment_time'] = date('Y-m-d H:i:s');
                 $condition4['Number'] = $_COOKIE['Number'];
                 $User->where($condition4)->save($data2);
 
@@ -204,17 +204,17 @@
 
                 /*座位状态改变*/
                 $User = M("seat_distribution");
-                $data['Seat_status'] = 2;
-                $condition3['Seat_id']       = $seat_id;
-                $condition3['Classroom_num'] = 04;
+                $data['seat_status'] = 2;
+                $condition3['seat_id']       = $seat_id;
+                $condition3['classroom_num'] = 04;
                 $User->where($condition3)->save($data);
 
                 /*用户信息改变*/
                 $User = M("student_info");
-                $data2['Classroom_num']    = '04';
-                $data2['Seat_id']          = $seat_id;
-                $data2['State_flag']       = 2;
-                $data2['Appointment_time'] = date('Y-m-d H:i:s');
+                $data2['classroom_num']    = '04';
+                $data2['seat_id']          = $seat_id;
+                $data2['state_flag']       = 2;
+                $data2['appointment_time'] = date('Y-m-d H:i:s');
                 $condition4['Number'] = $_COOKIE['Number'];
                 $User->where($condition4)->save($data2);
 

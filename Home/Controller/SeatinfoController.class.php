@@ -8,7 +8,7 @@
         public function seatinfo(){
             $User = M("student_info");            //数据库查询详细信息
             $condition['Number'] = $_COOKIE['Number'];
-            $stu_flag = $User->where($condition)->field('State_flag')->select();
+            $stu_flag = $User->where($condition)->field('state_flag')->select();
             switch ($stu_flag[0]['state_flag']){
                 case USERSTATE_ORDER:
                     $this->display('seatinfo/seatinfoyuyue');
@@ -145,10 +145,10 @@
             if($distance<= 50){
                 /*用户信息改变*/
                 $User = M("student_info");
-                $data['State_flag']       = USERSTATE_OCCUPY;  //用户占用中
-                $data['Appointment_time'] = null;
-                $data['Occupancy_time']   = date('Y-m-d H:i:s');
-                $data['Departure_time']   = null;
+                $data['state_flag']       = USERSTATE_OCCUPY;  //用户占用中
+                $data['appointment_time'] = null;
+                $data['occupancy_time']   = date('Y-m-d H:i:s');
+                $data['departure_time']   = null;
                 $condition['Number'] = $_COOKIE['Number']; //学号
 
                 $seat_info = $User->where($condition)->select();
@@ -160,9 +160,9 @@
                 $seat_id       = $seat_info[0]['seat_id'];
                 /*座位状态改变*/
                 $User = M("seat_distribution");
-                $seatData['Seat_status'] = SEATSTATE_OCCUPY;
-                $seatCondition['Seat_id']       = $seat_id;
-                $seatCondition['Classroom_num'] = $classroom_num;
+                $seatData['seat_status'] = SEATSTATE_OCCUPY;
+                $seatCondition['seat_id']       = $seat_id;
+                $seatCondition['classroom_num'] = $classroom_num;
                 $User->where($seatCondition)->save($seatData);
 
                 $result=array(
@@ -188,10 +188,10 @@
         {
             /*用户信息改变*/
             $User = M("student_info");
-            $data['State_flag']       = USERSTATE_TEM;  //用户暂离
-            $data['Appointment_time'] = null;
-            $data['Occupancy_time']   = null;
-            $data['Departure_time']   = date('Y-m-d H:i:s');
+            $data['state_flag']       = USERSTATE_TEM;  //用户暂离
+            $data['appointment_time'] = null;
+            $data['occupancy_time']   = null;
+            $data['departure_time']   = date('Y-m-d H:i:s');
             $condition['Number'] = $_COOKIE['Number']; //学号
 
             $seat_info = $User->where($condition)->select();
@@ -209,10 +209,10 @@
             $seat_id       = $seat_info[0]['seat_id'];
             /*座位状态改变*/
             $User = M("seat_distribution");
-            $seatData['Seat_status'] = SEATSTATE_TEM;
+            $seatData['seat_status'] = SEATSTATE_TEM;
 
-            $seatCondition['Seat_id']       = $seat_id;
-            $seatCondition['Classroom_num'] = $classroom_num;
+            $seatCondition['seat_id']       = $seat_id;
+            $seatCondition['classroom_num'] = $classroom_num;
             $User->where($seatCondition)->save($seatData);
 
             $result=array(
@@ -227,11 +227,11 @@
         {
             /*用户信息改变*/
             $User = M("student_info");
-            $data['Classroom_num']    = null;
-            $data['Seat_id']          = null;
-            $data['State_flag']       = USERSTATE_LOGIN;
-            $data['Appointment_time'] = null;
-            $data['Occupancy_time'] = null;
+            $data['classroom_num']    = null;
+            $data['seat_id']          = null;
+            $data['state_flag']       = USERSTATE_LOGIN;
+            $data['appointment_time'] = null;
+            $data['occupancy_time'] = null;
             $condition['Number'] = $_COOKIE['Number'];
             $seat_info = $User->where($condition)->select();
             $User->where($condition)->save($data);
@@ -241,9 +241,9 @@
 
             /*座位状态改变*/
             $User = M("seat_distribution");
-            $data2['Seat_status'] = SEATSTATE_EMPTY;
-            $condition2['Seat_id']       = $seat_id;
-            $condition2['Classroom_num'] = $classroom_num;
+            $data2['seat_status'] = SEATSTATE_EMPTY;
+            $condition2['seat_id']       = $seat_id;
+            $condition2['classroom_num'] = $classroom_num;
             $User->where($condition2)->save($data2);
 
             $this -> ajaxReturn('退座成功！');
@@ -253,11 +253,11 @@
         {
             /*用户信息改变*/
             $User = M("student_info");
-            $data['Classroom_num']    = null;
-            $data['Seat_id']          = null;
-            $data['State_flag']       = 1;
-            $data['Appointment_time'] = null;
-            $data['Occupancy_time'] = null;
+            $data['classroom_num']    = null;
+            $data['seat_id']          = null;
+            $data['state_flag']       = 1;
+            $data['appointment_time'] = null;
+            $data['occupancy_time'] = null;
             $condition['Number'] = $_COOKIE['Number'];
             $seat_info = $User->where($condition)->select();
             if($seat_info[0]['state_flag'] != 2)
@@ -269,9 +269,9 @@
 
             /*座位状态改变*/
             $User = M("seat_distribution");
-            $data2['Seat_status'] = 0;
-            $condition2['Seat_id']       = $seat_id;
-            $condition2['Classroom_num'] = $classroom_num;
+            $data2['seat_status'] = 0;
+            $condition2['seat_id']       = $seat_id;
+            $condition2['classroom_num'] = $classroom_num;
             $User->where($condition2)->save($data2);
 
             $this -> ajaxReturn('预约退座成功！');
@@ -282,10 +282,10 @@
         {
             /*用户信息改变*/
             $User = M("student_info");
-            $data['Classroom_num']  = null;
-            $data['Seat_id']        = null;
-            $data['State_flag']     = 1;
-            $data['Departure_time'] = null;
+            $data['classroom_num']  = null;
+            $data['seat_id']        = null;
+            $data['state_flag']     = 1;
+            $data['departure_time'] = null;
             $condition['Number'] = $_COOKIE['Number'];
             $seat_info = $User->where($condition)->select();
             if($seat_info[0]['state_flag'] != 4)
@@ -297,9 +297,9 @@
 
             /*座位状态改变*/
             $User = M("seat_distribution");
-            $data2['Seat_status'] = 0;
-            $condition2['Seat_id']       = $seat_id;
-            $condition2['Classroom_num'] = $classroom_num;
+            $data2['seat_status'] = 0;
+            $condition2['seat_id']       = $seat_id;
+            $condition2['classroom_num'] = $classroom_num;
             $User->where($condition2)->save($data2);
 
             $this -> ajaxReturn('暂离退座成功！');

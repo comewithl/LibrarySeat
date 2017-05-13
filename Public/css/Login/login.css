@@ -3,12 +3,12 @@
     padding:0px;
 }
 body,html{
-    background:rgb(238,238,238);
+    background:#efe6fc;
     overflow:hidden;
 }
 .head{
     height:40px;
-    text-align:center;咯
+    text-align:center;
     line-height:40px;
     background:rgb(35,40,40);
     color:#fff;

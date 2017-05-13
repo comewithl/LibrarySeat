@@ -15,7 +15,7 @@ function infoSubmit(){
 
     $.ajax({
         type:"POST",
-        url:"/libraryso/index.php/home/admin/check",
+        url:"/libraryso/index.php/home/login/check",
         data:{"userId":$(".userId").val(),"userKey":$(".userKey").val()},
         success:function(data){
             if(data==0){

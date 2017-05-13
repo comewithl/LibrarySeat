@@ -6,8 +6,8 @@ class IndexController extends Controller {
         /*根据学生的学号，查询学生的状态*/
         if(cookie('Number') != null) {
             $User = M("student_info");      //学生状态数据库查询
-            $condition['Number'] = cookie('Number');
-            $stu_flag = $User->where($condition)->field('State_flag')->select();
+            $condition['number'] = cookie('Number');
+            $stu_flag = $User->where($condition)->field('state_flag')->select();
 
             $state_flag = $stu_flag[0]['state_flag'];
         }else{

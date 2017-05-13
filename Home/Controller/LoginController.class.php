@@ -23,7 +23,7 @@
 
                 /*数据库查询密码操作*/
                 $User = M("student_info");
-                $condition['Number'] = $number_inp;
+                $condition['number'] = $number_inp;
                 $stu = $User->where($condition)->select();
 
                 $password = $stu[0]['password'];
@@ -33,7 +33,7 @@
                     $this->ajaxReturn(2);        //帐号或密码错误，返回提示信息
                 }else{
                     if($condition['state_flag'] == 0) {
-                        $date['State_flag'] = 1;
+                        $date['state_flag'] = 1;
                         //用户绑定成功，改变用户的状态
                         $User->where($condition)->save($date);
 

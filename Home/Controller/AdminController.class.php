@@ -4,6 +4,7 @@
     use Think\Model;
 
     class AdminController extends Controller{
+        public  $search_time;
         /*登录页面展示*/
         public function adminLogin()
         {
@@ -15,10 +16,18 @@
         }
         /*获取当天举报信息*/
         public function reportImf(){
-            $Report=M('seat_report');
-            $condition['confirm_result'] ='noConfirm';
-            $cur_date = date('Y-m-d');
-            $report_info=$Report->where($condition)->where("reporte_time >= '{$cur_date}'")->order('Seat_name asc')->select();
+            $ifFirstTime=$_GET['firstTime'];
+            $searchTime=$_GET['searchTime'];
+            $Report = M('seat_report');
+            $condition['confirm_result'] = 'noConfirm';
+
+            if($ifFirstTime) {
+                $cur_date = date('Y-m-d');
+                $report_info = $Report->where($condition)->where("reporte_time >= '$cur_date'")->order('seat_name asc')->select();
+            }
+            else{
+                $report_info = $Report->where($condition)->where("reporte_time >= '$searchTime'")->order('seat_name asc')->select();
+            }
             $this->ajaxReturn($report_info);
         }
         /*获取座位状态*/
@@ -27,9 +36,9 @@
             $seat  = $_POST['seat'];
 
             $SeatInfo = M("seat_distribution");        //数据库查询座位状态
-            $condition['Classroom_num'] = $floor;
-            $condition['Seat_id']       = $seat;
-            $seat_info = $SeatInfo->where($condition)->field('Seat_status')->select();
+            $condition['classroom_num'] = $floor;
+            $condition['seat_id']       = $seat;
+            $seat_info = $SeatInfo->where($condition)->field('seat_status')->select();
             switch ($seat_info[0]['seat_status']){
                 case SEATSTATE_EMPTY:
                     $this->ajaxReturn('该座位为空');
@@ -61,17 +70,17 @@
             $reportImf=$Report->where($condition)->field('imformater_number')->select();
             if($confirmResult == 'confirmedYes' && $updateFlag){
                 $User = M("student_info");      //学生信息变更
-                $userCondition['Number']=$reportImf[0]['imformater_number'];
-                $data['Classroom_num']  = null;
-                $data['Seat_id']        = null;
-                $data['State_flag']     = 1;
-                $data['Occupancy_time'] = null;
-                $User->where($userCondition)->setInc('Default_num',1);  //记录违规次数
+                $userCondition['number']=$reportImf[0]['imformater_number'];
+                $data['classroom_num']  = null;
+                $data['seat_id']        = null;
+                $data['state_flag']     = 1;
+                $data['occupancy_time'] = null;
+                $User->where($userCondition)->setInc('default_num',1);  //记录违规次数
                 $User->where($userCondition)->save($data);
 
                 $SeatInfo = M("seat_distribution");     //座位信息变更
-                $seatCondition['Seat_name']=$seat;
-                $data2['Seat_status'] = 0;
+                $seatCondition['seat_name']=$seat;
+                $data2['seat_status'] = 0;
                 $SeatInfo->where($seatCondition)->save($data2);
             }
             $this->ajaxReturn($updateFlag);
@@ -98,7 +107,7 @@
                 if($password_inp != $password) {
                     $this->ajaxReturn(2);        //帐号或密码错误，返回提示信息
                 }else{
-                    $date['State_flag'] = 1;            //用户绑定成功，改变用户的状态
+                    $date['state_flag'] = 1;            //用户绑定成功，改变用户的状态
                     $User->where($condition)->save($date);
 
                     cookie('Number',$number_inp,3600*24*365*4);     //用户的信息存入cookies
