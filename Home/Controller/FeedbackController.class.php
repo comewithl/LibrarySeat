@@ -44,23 +44,21 @@
             $data['reporter_number']=$_COOKIE['Number'];
             $data['Seat_name']=$floor.$seat;
             $data['imformater_number']=$stu_info[0]['number'];
-            $data['reporte_time']=date('Y-m-d H:i:s');
-            $report->add($data);
-            $this -> ajaxReturn(true);
-//            $User = M("student_info");      //学生信息变更
-//            $condition['Classroom_num'] = $floor;
-//            $condition['Seat_id']       = $seat;
-//            $data['Classroom_num']  = null;
-//            $data['Seat_id']        = null;
-//            $data['State_flag']     = 1;
-//            $data['Occupancy_time'] = null;
-//            $User->where($condition)->setInc('Default_num',1);  //记录违规次数
-//            $User->where($condition)->save($data);
-//
-//            $User = M("seat_distribution");     //座位信息变更
-//            $data2['Seat_status'] = 0;
-//            $User->where($condition)->save($data2);
-//
+            $check=$report->where($data)->select();
+            if(count($check)>0){
+                $this -> ajaxReturn(array(
+                    'sucessflag' =>false,
+                    'imf'=>'已经有人举报过该座位!'
+                ));
+            }
+            else{
+                $data['reporte_time']=date('Y-m-d H:i:s');
+                $report->add($data);
+                $this -> ajaxReturn(array(
+                    'sucessflag' =>true,
+                    'imf'=>'举报成功'
+                ));
+            }
 
         }
     }

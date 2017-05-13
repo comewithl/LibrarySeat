@@ -48,11 +48,11 @@
             url:"/libraryso/index.php/home/feedback/sreport",
             data:{"floor":floor,"seat":seat},
             success:function($data){
-                if($data) {
-                    alert("举报成功,等待管理员审核！");
+                if($data.sucessflag) {
+                    alert($data.imf);
                     window.location.href = "/libraryso/index.php/home/floorlist/floorlist";
                 }else{
-                    alert("举报失败，请检查重试！");
+                    alert($data.imf);
                     window.location.href = "/libraryso/index.php/home/feedback/report";
                 }
             },

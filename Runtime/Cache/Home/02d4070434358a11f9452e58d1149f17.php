@@ -91,6 +91,7 @@
         <li><a href="/libraryso/index.php/home/seatinfo/seatinfo"><span class="glyphicon glyphicon-inbox"></span>我的座位</a></li>
         <li><a href="#"><span class="glyphicon glyphicon-remove"></span>违规记录</a></li>
         <li><a href="/libraryso/index.php/home/feedback/report"><span class="glyphicon glyphicon-search"></span>监督占座</a></li>
+        <li><a href="/libraryso/index.php/home/login/loginout"><span class="glyphicon glyphicon-log-out"></span>登出</a></li>
         <!--<li><a href="/libraryso/index.php/home/feedback/report"><span class="glyphicon glyphicon-transfer"></span>问题反馈</a></li>-->
         <!--<li><a href="#"><span class="glyphicon glyphicon-list"></span>关于我们</a></li>-->
     </ul>

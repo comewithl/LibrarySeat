@@ -13,12 +13,68 @@
         {
             $this -> display();
         }
-        /*获取举报信息*/
+        /*获取当天举报信息*/
         public function reportImf(){
             $Report=M('seat_report');
             $condition['confirm_result'] ='noConfirm';
-            $report_info=$Report->where($condition)->order('Seat_name asc')->select();
+            $cur_date = date('Y-m-d');
+            $report_info=$Report->where($condition)->where("reporte_time >= '{$cur_date}'")->order('Seat_name asc')->select();
             $this->ajaxReturn($report_info);
+        }
+        /*获取座位状态*/
+        public function  getSeatState(){
+            $floor = $_POST['floor'];
+            $seat  = $_POST['seat'];
+
+            $SeatInfo = M("seat_distribution");        //数据库查询座位状态
+            $condition['Classroom_num'] = $floor;
+            $condition['Seat_id']       = $seat;
+            $seat_info = $SeatInfo->where($condition)->field('Seat_status')->select();
+            switch ($seat_info[0]['seat_status']){
+                case SEATSTATE_EMPTY:
+                    $this->ajaxReturn('该座位为空');
+                    break;
+                case SEATSTATE_ORDER:
+                    $this->ajaxReturn('该座位被预约');
+                    break;
+                case SEATSTATE_OCCUPY:
+                    $this->ajaxReturn('该座位有人使用');
+                    break;
+                case SEATSTATE_TEM:
+                    $this->ajaxReturn('该座位有人暂离');
+                    break;
+            }
+        }
+
+        /*举报通过/取消*/
+        public function  reportConfirm(){
+            $seat  = $_POST['seatName'];
+            $index = $_POST['indexNum'];
+            $confirmResult=$_POST['confirmResult'];
+
+            $Report = M("seat_report");
+            $condition['index_num']= $index;
+
+            $data['confirm_result']=$confirmResult;
+            $updateFlag = $Report->where(   $condition)->save($data);
+
+            $reportImf=$Report->where($condition)->field('imformater_number')->select();
+            if($confirmResult == 'confirmedYes' && $updateFlag){
+                $User = M("student_info");      //学生信息变更
+                $userCondition['Number']=$reportImf[0]['imformater_number'];
+                $data['Classroom_num']  = null;
+                $data['Seat_id']        = null;
+                $data['State_flag']     = 1;
+                $data['Occupancy_time'] = null;
+                $User->where($userCondition)->setInc('Default_num',1);  //记录违规次数
+                $User->where($userCondition)->save($data);
+
+                $SeatInfo = M("seat_distribution");     //座位信息变更
+                $seatCondition['Seat_name']=$seat;
+                $data2['Seat_status'] = 0;
+                $SeatInfo->where($seatCondition)->save($data2);
+            }
+            $this->ajaxReturn($updateFlag);
         }
         /*登录信息校对*/
         public function check()

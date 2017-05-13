@@ -44,5 +44,10 @@
                 }
             }
         }
+
+        public  function loginout(){
+            cookie('Number',null);     //用户的信息存入cookies
+            $this->display('login/login');
+        }
     }
 ?>

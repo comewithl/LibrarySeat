@@ -12,15 +12,14 @@
 <body>
     <div class="info_header">举报</div>
     <div class="feedback_wrapper">
-
-
+        <p>暂无举报信息！</p>
     </div>
 
 <!--举报显示模板-->
 <script type="text/template" id="reporterShow">
     <% _.each(obj,function(item){%>
-        <div class="section" data-seatName="">
-            <span  class="close_icon" onclick="">&times;</span>
+        <div class="section" >
+            <span  class="close_icon seatClose" data-seatName="<%= item.seat_name%>" data-indexNum="<%= item.index_num%>">&times;</span>
             <div class="section_row">
                 <div class="row_title">举报学号：</div>
                 <div class="row_content"><%= item.reporter_number%></div>
@@ -39,8 +38,8 @@
                 <div class="row_content"><%= item.reporte_time%></div>
             </div>
             <div class="section_botton">
-                <button class="v_left">座位状态</button>
-                <button class="v_right">通过</button>
+                <button class="v_left seatState" data-seatName="<%= item.seat_name%>" data-indexNum="<%= item.index_num%>">座位状态</button>
+                <button class="v_right seatPass" data-seatName="<%= item.seat_name%>" data-indexNum="<%= item.index_num%>">通过</button>
             </div>
         </div>
     <% })%>

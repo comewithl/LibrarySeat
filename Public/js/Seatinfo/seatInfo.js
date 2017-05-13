@@ -5,6 +5,7 @@
 (function(global){
     var info;
     var state = $('body').data("userstate");
+    var time;
     var userState={
         "ORDER" : 2,
         "OCCUPY" : 3,
@@ -22,6 +23,13 @@
         success:function(data){
             info=data;
             reFresh(data);
+            if(data.end_time && state == 'OCCUPY'){
+                time=data.end_time;
+                setInterval(function () {
+                        time=setTime(time);
+                        $('.end_time').html(time);
+                    },1000);
+            }
         },
         error:function(XMLHTTPRequest,status,errorThrown){
             alert(XMLHTTPRequest.statusText+status);
@@ -88,6 +96,7 @@ function seatConfirm() {
                 url:"/libraryso/index.php/home/seatinfo/seatConfirm",
                 data:{
                     userPosition:r.point
+                    // userPosition:{lat:120.21937542,lng:30.25924446}
                 },
                 async:false,
                 success:function(data){
@@ -125,5 +134,32 @@ function showLoadding(show) {
         parentBox.css('opacity',1);
         return false;
     }
+
+}
+
+/*时间刷新*/
+function setTime(t) {
+
+    var timeArray=t.split(":");
+    var hh= parseInt(timeArray[0]);
+    var mm= parseInt(timeArray[1]);
+    var ss= parseInt(timeArray[2]);
+
+    if(ss < 59){
+        ss++;
+    }else{
+        ss=0;
+        if(mm < 59){
+            mm++;
+        }else{
+            mm=0;
+            hh++;
+        }
+    }
+    t=hh < 9? '0'+hh : ''+hh;
+    t+= mm <9?':0'+mm: ':'+mm;
+    t+= ss <9?':0'+ss: ':'+ss;
+
+    return t;
 
 }
